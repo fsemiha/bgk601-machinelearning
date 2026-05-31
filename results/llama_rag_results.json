@@ -1,0 +1,3317 @@
+[
+  {
+    "model": "Llama3.1+RAG",
+    "id": 1,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'ahmet.yilmaz' mesai saatleri içinde (09:00-18:00) şirket VPN'ine bağlandı ve CRM sistemin...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki adımları izleyeceğim:\n\n**Senaryo:** Kullanıcı 'ahmet.yilmaz' mesai saatleri içinde şirket VPN'ine bağlandı ve CRM siste...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 239838.6,
+    "avg_tokens": 869.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 2,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'mehmet.kaya' gece 03:15'te sistemlere erişmeye çalıştı. Kullanıcının geçmiş erişim loglar...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryoya göre, aşağıdaki değerlendirmeyi yapabiliriz:\n\n**Erişim İhlali Olayı**\n\n1. **KARAR**: ANOMALİ (Normalden farklı davranış gözlemlendi)\n2. **RI...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 287439.7,
+    "avg_tokens": 851.7,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 3,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Servis hesabı 'svc-backup' her gece 02:00'de otomatik yedekleme işlemi gerçekleştiriyor. Bu işlem 6 ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryoya göre, aşağıdaki değerlendirme ve öneriler sunulmaktadır:\n\n**Servis Hesabı Oluşturma (T1136)**\n\n1. Karar: POLİTİKA İHLALİ\n2. Risk Seviyesi: D...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 76023.8,
+    "avg_tokens": 328.0,
+    "run_scores": [
+      0,
+      0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 4,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'ali.demir' 5 dakika içinde 500 kez başarısız giriş denemesi yaptı. Her denemede farklı şi...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo:\nKullanıcı 'ali.demir' 5 dakika içinde 500 kez başarısız giriş denemesi yaptı. Her denemede farklı şifre kullanıldı.\n\n1. **Karar:** ANOMALİ\n2....",
+    "avg_score": 1.0,
+    "avg_latency_ms": 155541.5,
+    "avg_tokens": 800.7,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 5,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "IT yöneticisi 'admin.user' mesai saatlerinde Active Directory'de yeni kullanıcı hesabı oluşturdu. Bu...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizine geçebiliriz.\n\n**Senaryo:** IT yöneticisi 'admin.user' mesai saatlerinde Active Directory'de yeni kullanıcı hesabı oluşturdu. Bu işle...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 138155.9,
+    "avg_tokens": 577.0,
+    "run_scores": [
+      1.0,
+      0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 6,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'fatma.ozturk' normalde sadece muhasebe sistemine erişiyor. Bugün ilk kez üretim veritaban...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryoya göre, Fatma'nın üretim veritabanına erişim talebi normal görünse de, şu anda bu sisteme tanımlı olan yetki gözden geçirilmemiştir.\n\n**Senary...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 233548.5,
+    "avg_tokens": 859.3,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 7,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'can.arslan' İstanbul'dan saat 10:00'da sisteme giriş yaptı. Aynı kullanıcı 2 saat sonra L...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryoları değerlendirme zamanı!\n\n**Senaryo 1:** Kullanıcı 'can.arslan' İstanbul'dan saat 10:00'da sisteme giriş yaptı.\n\n1. **Karar**: ANOMALİ\n2. **R...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 230053.5,
+    "avg_tokens": 936.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 8,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'zeynep.celik' uzaktan çalışma politikası kapsamında evinden VPN ile bağlanıyor. Bu ay 15 ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizine başlıyoruz:\n\n**Senaryo 1: Zeynep'nin uzaktan bağlanması**\n\n1. Karar: NORMAL\n2. Risk Seviyesi: DÜŞÜK\n3. Gerekçe: Zeynep'nin uzaktan b...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 130860.0,
+    "avg_tokens": 625.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 9,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Ayrılan çalışan 'emre.yildiz'in hesabı devre dışı bırakıldı. Ancak loglar bu hesabın ayrılma tarihin...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Bu senaryo, T1078 Valid Accounts (Geçerli Hesapların Kötüye Kullanımı) tehdidinin bir örneğidir. İşte senaryonun değerlendirilmesi:\n\n**1. Karar:** ANO...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 180663.5,
+    "avg_tokens": 867.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 10,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Sistem yöneticisi 'sysadmin01' bir yazılım güncellemesi sırasında gece 23:00'de sunuculara erişti. D...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**1. Sysadmin01'ın gece saat 23:00'de sistemlere erişimi**\n\n* Karar: POLİTİKA İHLALİ\n* Risk Seviyesi: ORTA\n* Gerekçe...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 151352.2,
+    "avg_tokens": 712.3,
+    "run_scores": [
+      0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 11,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'burak.sahin' normalde günde 50-100 dosyaya erişiyor. Bugün 4 saatte 10.000 dosyaya erişti...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo analizi aşağıdaki gibi olacaktır:\n\n**Erişim Yönetim Senaryosu - Bulut Depolama Servislerine Erişim**\n\n1. **Karar:** ANOMALİ\n2. **Risk Seviyesi...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 137440.4,
+    "avg_tokens": 821.7,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 12,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'hasan.koc' tatilde olduğunu bildirdi. Ancak İK sistemine göre tatil kaydı yok. Kullanıcı ...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirme işlemini MITRE ATT&CK ve güvenlik bilgilerine dayalı olarak yapacağım.\n\n**Senaryo:** Kullanıcı 'hasan.koc' tatilde olduğunu bild...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 151686.8,
+    "avg_tokens": 587.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 13,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'elif.yilmaz' son 3 aydır her Salı ve Perşembe 14:00-16:00 arasında finansal raporlara eri...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryoyu inceleyerek aşağıdaki sonuca varıyorum:\n\n**Senaryo:** Kullanıcı 'elif.yilmaz' son 3 aydır her Salı ve Perşembe 14:00-16:00 arasında finansal...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 82648.3,
+    "avg_tokens": 570.0,
+    "run_scores": [
+      0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 14,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Yeni işe başlayan 'murat.demir' (3. iş günü) kendi rolü için gerekli sistemlerin dışında HR veritaba...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirmesi:\n\n**Erişim Reddi Senaryosu**\n\n* Kullanıcı: Murat Demir\n* Tarihsel durum: 3. iş günü\n* Eylem: HR veritabanına erişmeye çalıştı,...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 167256.6,
+    "avg_tokens": 861.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 15,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Servis hesabı 'svc-monitor' normalde sadece okuma yetkisine sahip. Log kaydına göre bu hesap dün bir...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirme:\n\n**Etkinlik:** Servis hesabı 'svc-monitor' bir veritabanı tablosunu sildi.\n\n1. Karar: ANOMALİ\n2. Risk Seviyesi: YÜKSEK\n3. Gerek...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 168775.0,
+    "avg_tokens": 838.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 16,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Stajyer 'selin.ak' tüm üretim sunucularına root erişimine sahip. Görevi sadece test ortamında fronte...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Bu senaryoda, Stajyer 'selin.ak' tüm üretim sunucularına root erişimine sahip ve görevi sadece test ortamında frontend geliştirme yapması gerekir. Anc...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 82448.2,
+    "avg_tokens": 904.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 17,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Muhasebe uzmanı 'ayse.kara' yalnızca muhasebe modülüne okuma/yazma erişimine sahip. Diğer sistemlere...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo analizine başlayabilir miyim?\n\n**Senaryo 1:** Ayşe Kara, muhasebe modülüne erişmek için kimlik doğrulaması yapar.\n\n* **Karar:** NORMAL\n* **Ris...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 108448.4,
+    "avg_tokens": 936.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 18,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "2 yıl önce başka departmana geçen kullanıcı 'kemal.yilmaz' eski departmanının sistemlerine hala tam ...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Erişim yönetimi senaryolarını değerlendirmeye başlayacağım.\n\n**Senaryo 1:** Kullanıcı 'kemal.yilmaz' eski departmanının sistemlerine hala tam erişim y...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 112458.8,
+    "avg_tokens": 1019.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 19,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "DevOps mühendisi 'ozan.cetin' üretim ortamına deploy yetkisine sahip ancak veritabanına doğrudan eri...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Bu senaryoda, DevOps mühendisi \"ozan.cetin\" üretim ortamına deploy yetkisine sahip ancak veritabanına doğrudan erişimi yok. Bu durum bazı güvenlik ris...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 100442.5,
+    "avg_tokens": 988.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 20,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Satış temsilcisi 'deniz.ak' tüm müşteri verilerini görebiliyor, düzenleyebiliyor ve silebiliyor. Gör...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları aşağıdaki gibidir:\n\n**Senaryo 1:** Satış temsilcisi 'deniz.ak' tüm müşteri verilerini görebiliyor, düzenleyebiliyor ve...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 124371.6,
+    "avg_tokens": 1107.3,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 21,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Güvenlik denetçisi 'cem.ozkan' tüm sistemlerin loglarına salt okunur erişime sahip. Hiçbir sistemi d...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo değerlendirme için aşağıdaki sonuçlar elde edilebilir:\n\n**İLGİLİ GÜVENLİK BİLGİSİ**\nZero Trust - Sıfır Güven Mimarisi\nAçıklama: Hiçbir kullanı...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 45731.0,
+    "avg_tokens": 347.7,
+    "run_scores": [
+      0,
+      0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 22,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Proje müdürü 'bora.arslan' projeyle ilgili tüm sistemlere geçici erişim aldı. Proje 6 ay önce tamaml...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki adımları takip ediyorum:\n\n**1. Proje müdürü 'bora.arslan' projeyle ilgili tüm sistemlere geçici erişim aldı.**\n\n* **Kar...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 153632.1,
+    "avg_tokens": 1073.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 23,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Yazılım geliştirici 'naz.yildiz' production loglarına okuma erişimine sahip. Bu erişimi hata ayıklam...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo değerlendirme işlemini MITRE ATT&CK referansıyla yapacağım:\n\n**Erişim Yönetimi Senaryosu: Yazılım Geliştiricisi'nin Production Loglarına Erişi...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 69043.6,
+    "avg_tokens": 511.0,
+    "run_scores": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 24,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Şirket politikası: Tüm ayrıcalıklı hesaplar (admin) MFA kullanmak zorunda. Kullanıcı 'admin.celik' M...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo 1:\nTüm ayrıcalıklı hesaplar MFA zorunluluğu varken, 'admin.celik' kullanıcısı sisteme MFA olmadan girdi.\n\n1. Karar: POLİTİKA İHLALİ\n2. Risk Se...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 127461.0,
+    "avg_tokens": 748.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 25,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Şirket politikası: Şifreler 90 günde bir değiştirilmeli. Kullanıcı 'tuba.sahin' şifresini 85 günde d...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryo değerlendirmesi için aşağıdaki adımları izleyeceğim:\n\n**Senaryo:** Kullanıcı 'tuba.sahin' şifresini 85 günde değiştirdi.\n\n1. **Karar:** POLİTİ...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 106373.1,
+    "avg_tokens": 960.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 26,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Şirket politikası: Gizli veriler şifreli kanallar üzerinden iletilmeli. Kullanıcı müşteri verilerini...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryoları değerlendiriyorum:\n\n**Senaryo 1:** Şirket politikasına göre, gizli veriler şifreli kanallar üzerinden iletilmeliydi. Ancak, kullanıcı müşt...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 146898.2,
+    "avg_tokens": 1130.7,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 27,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Üçüncü taraf tedarikçiler yalnızca iş saatleri içinde (08:00-18:00) ve onaylı IP aralığınd...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryo değerlendirme süreci için aşağıda verilen tabloyu kullanacağım:\n\n| Senaryo | Karar | Risk Seviyesi | Gerekçe | Önerilen Aksiyon |\n| --- | --- ...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 140675.5,
+    "avg_tokens": 1178.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 28,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Hassas veriye erişimde 4 göz prensibi uygulanmalı (iki kişi onayı gerekli). Kullanıcı tek ...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları aşağıdaki gibidir:\n\n**1. Normal Durum Senaryosu**\n\n1. Karar: NORMAL\n2. Risk Seviyesi: DÜŞÜK\n3. Gerekçe: Kullanıcı, müş...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 128329.1,
+    "avg_tokens": 1082.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 29,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: GDPR kapsamında AB vatandaşlarının verileri AB sınırları dışına çıkarılamaz. Sistem AB dış...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Bu senaryoya uygun olarak aşağıdaki değerlendirme ortaya çıkmaktadır:\n\n**Senaryo:** Politika: GDPR kapsamında AB vatandaşlarının verileri AB sınırları...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 68390.2,
+    "avg_tokens": 807.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 30,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Geliştiriciler production veritabanına doğrudan erişemez. Kıdemli geliştirici 'serdar.yilm...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryolar:\n\n**1. Senaryo:** Kıdemli geliştirici 'serdar.yilmaz' production veritabanına doğrudan erişiyor.\n\n*Karar:* POLİTİKA İHLALİ\n*Risk Seviyesi:*...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 84721.9,
+    "avg_tokens": 935.0,
+    "run_scores": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 31,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Tüm erişim logları 1 yıl saklanmalı. Sistem 6 ay sonunda logları otomatik siliyor. Bu duru...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryoları değerlendiriyorum:\n\n**Senaryo 1**\n\n* Sistem, politika gereği 6 ay sonra logları otomatik olarak siliyordu.\n* IT ekibi tarafından keşfedild...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 156790.1,
+    "avg_tokens": 1221.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 32,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 10 farklı hesap için şifre sıfırlama talebi gönderdi. Tüm talepler farklı IP adreslerinden...",
+    "beklenen": "CREDENTIAL STUFFING",
+    "tahmin_ozet": "Senaryo analizi aşağıda verilmiştir:\n\n**1. İlk Senaryo**\nKullanıcı 10 farklı hesap için şifre sıfırlama talebi gönderdi.\n\n* Karar: ANOMALİ\n* Risk Sevi...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 165691.9,
+    "avg_tokens": 1269.3,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 33,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı sistemde oturum açtıktan sonra 1 saat içinde 50GB veri indirdi ve VPN bağlantısını kapattı...",
+    "beklenen": "INSIDER THREAT",
+    "tahmin_ozet": "Yapılan analizler ve güvenlik bilgilerini referans alacak şekilde, aşağıda her senaryo için karar, risk seviyesi, gerekçe ve önerilen eylem belirtilmi...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 133600.6,
+    "avg_tokens": 1166.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 34,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Bir kullanıcı hesabı birden fazla ülkeden eş zamanlı oturum açmaya çalışıyor. Oturumlar arasında yal...",
+    "beklenen": "HESAP ELE GEÇİRME",
+    "tahmin_ozet": "Sevgili ekip,\n\nBu senaryo ile Impossible Travel (İmkansız Yolculuk) saldırısı söz konusu olduğunda, kullanıcı birden fazla ülkeden eş zamanlı oturum a...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 114048.8,
+    "avg_tokens": 1075.3,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 35,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Sistem yöneticisi hesabı gece 02:00'de yeni bir admin hesabı oluşturdu, tüm sistemlere tam yetki ver...",
+    "beklenen": "INSIDER THREAT / APT",
+    "tahmin_ozet": "Senaryo değerlendirme zamanı!\n\n**Senaryo 1:** Sistem yöneticisi hesabı gece 02:00'de yeni bir admin hesabı oluşturdu, tüm sistemlere tam yetki verdi v...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 107458.6,
+    "avg_tokens": 1042.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 36,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirketin API servisi saniyede 10.000 istek alıyor. Normal trafik saniyede 100-200 istek. Tüm istekle...",
+    "beklenen": "DDoS / BOT SALDIRISI",
+    "tahmin_ozet": "Bu senaryo için değerlendirmeler:\n\n**1. Şüpheli IP adresi tespit edildi**\n1. Karar: ANOMALİ\n2. Risk Seviyesi: YÜKSEK\n3. Gerekçe: Normal trafik saniyed...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 128736.2,
+    "avg_tokens": 1082.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 37,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Normal yetkisi olmayan bir uygulama, bir güvenlik açığı kullanarak veritabanına erişim sağladı ve ve...",
+    "beklenen": "PRIVILEGE ESCALATION",
+    "tahmin_ozet": "Umarım yardımcı olurum!\n\n**Senaryo 1:** Normal yetkisi olmayan bir uygulama, bir güvenlik açığı kullanarak veritabanına erişim sağladı ve veri okudu.\n...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 99219.0,
+    "avg_tokens": 906.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 38,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'pinar.yildiz' 3 aydır her hafta düzenli olarak küçük miktarlarda (50-100 kayıt) müşteri v...",
+    "beklenen": "INSIDER THREAT",
+    "tahmin_ozet": "Senaryoyu MITRE ATT&CK ve güvenlik bilgilerini referans alarak değerlendiriyorum.\n\n**Erişim Yönetimi Senaryosu**\n\n**Kullanıcı:** pinar.yildiz\n**Eylem:...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 97627.3,
+    "avg_tokens": 933.3,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 39,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Bir servis hesabı güvenilir bir uygulama gibi davranarak diğer servislerle iletişim kuruyor. Ancak t...",
+    "beklenen": "LATERAL MOVEMENT",
+    "tahmin_ozet": "Senaryo incelemesi:\n\n**Trafik Analizi: Anormal Bağlantılar**\n\n1. Karar: **ANOMALİ**\n2. Risk Seviyesi: **ORTA**\n3. Gerekçe: Servis hesabının beklenmedi...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 61223.4,
+    "avg_tokens": 774.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 40,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirkete yeni katılan çalışan ilk haftadan itibaren rakip firmaların çalışanlarıyla mesai saatleri dı...",
+    "beklenen": "ŞÜPHELİ / INSIDER THREAT",
+    "tahmin_ozet": "Senaryoları değerlendirip önerilerimi aşağıdaki tabloda bulacaksınız:\n\n| **Senaryo** | **Karar** | **Risk Seviyesi** | **Gerekçe** | **Önerilen Aksiyo...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 107228.0,
+    "avg_tokens": 941.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 41,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'tolga.can' her sabah 08:30'da ofis bilgisayarından sisteme giriş yapıyor. Bugün de aynı s...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizine başlayacağım.\n\n**Senaryo:** Kullanıcı \"tolga.can\" her sabah 08:30'da ofis bilgisayarından sisteme giriş yapıyor, bugün de aynı saatt...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 153839.1,
+    "avg_tokens": 1147.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 42,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'iptal.hesap' 6 ay önce şirketten ayrıldı. Hesap kapatılmadı ve bugün bu hesapla giriş yap...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki sonuçlar elde edilebilir:\n\n**Senearyo 1: Kullanıcı 'iptal.hesap' ile giriş yapıldı**\n\n1. Karar: ANOMALİ\n2. Risk Seviyes...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 173593.4,
+    "avg_tokens": 1132.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 43,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'selim.ozkan' şirket politikası gereği sadece Türkiye'den çalışıyor. Bugün İspanya'dan bağ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo:\nKullanıcı 'selim.ozkan' şirket politikası gereği sadece Türkiye'den çalışıyor. Bugün İspanya'dan bağlandı. Kullanıcı şu an izinli ve İspanya'...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 158111.5,
+    "avg_tokens": 1098.0,
+    "run_scores": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 44,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'ceren.kaya' bir toplantı sırasında toplantı odasındaki projektörden sisteme erişti. Kulla...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme zamanı! \n\n**Senaryo 1:**\nKullanıcı 'ceren.kaya' toplantı sırasında projektörden sisteme erişti.\n\n1. **Karar:** ANOMALİ\n2. **Risk...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 98538.2,
+    "avg_tokens": 635.7,
+    "run_scores": [
+      1.0,
+      0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 45,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'anil.yilmaz' normalde 10-20 API çağrısı yapıyor günde. Bugün tam 100 API çağrısı yaptı. Ş...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme zamanı! \n\n**Erişim Yönetimi Senaryosu**\n\n**1. Normal API Çağrı Sayısı**\nKullanıcı 'anil.yilmaz' 10-20 API çağrısı yapmaktadır, a...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 147327.4,
+    "avg_tokens": 1004.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 46,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Müşteri hizmetleri temsilcisi 'oya.demir' müşteri iletişim geçmişini görüntüleyebiliyor ve notlar ek...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki adımları takip edeceğiz:\n\n**1. Senaryo**: Müşteri hizmetleri temsilcisi 'oya.demir' müşteri iletişim geçmişini görüntül...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 100798.6,
+    "avg_tokens": 702.3,
+    "run_scores": [
+      0.0,
+      0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 47,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Pazarlama müdürü 'fuat.arslan' rakip analizi için şirketin tüm ürün geliştirme dosyalarına, patent b...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Senaryoyu değerlendiriyorum:\n\n**Senaryo:** Pazarlama müdürü 'fuat.arslan' rakip analizi için şirketin tüm ürün geliştirme dosyalarına, patent başvurul...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 109439.7,
+    "avg_tokens": 885.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 48,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Veri bilimci 'lale.ozturk' model eğitimi için anonimleştirilmiş müşteri verisine erişiyor. Ham veriy...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Erişim Yönetim Senaryosu:\n\n**Senaryo 1:** Veri bilimci Lale Öztürk, model eğitimi için anonimleştirilmiş müşteri verisine erişmek istiyor.\n\n* Karar: N...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 181541.6,
+    "avg_tokens": 1151.0,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 49,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Tüm çalışanlar yılda bir güvenlik farkındalık eğitimi almalı. Kullanıcı 'gul.yilmaz' bu yı...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki sonuçlar elde edilebilir:\n\n**Senaryo:** Kullanıcı 'gul.yilmaz' bu yılki güvenlik farkındalık eğitimini tamamlamadan has...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 84398.2,
+    "avg_tokens": 623.7,
+    "run_scores": [
+      1.0,
+      1.0,
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 50,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Kişisel cihazlardan (BYOD) erişim MDM yazılımı yüklü olması şartıyla serbest. Kullanıcı MD...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryo analizi:\n\n**Senaryo 1:** BYOD cihazından şirket e-postasına erişim, MDM yazılımı yüklü olmasına rağmen.\n\n1. **Karar:** POLİTİKA İHLALİ\n2. **Ri...",
+    "avg_score": 0.333,
+    "avg_latency_ms": 129742.0,
+    "avg_tokens": 955.0,
+    "run_scores": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 51,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'arda.kurt' normal çalışma saatlerinde şirket laptopundan kurumsal uygulamalara erişti. Da...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**Senaryo 1:** Kullanıcı 'arda.kurt' normal çalışma saatlerinde şirket laptopundan kurumsal uygulamalara erişti.\n\n1....",
+    "avg_score": 1.0,
+    "avg_latency_ms": 148980.2,
+    "avg_tokens": 1018.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 52,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Otomasyon hesabı 'robot.process' her dakika veri tabanından kayıt çekiyor. Bu işlem 1 yıldır kesinti...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizine başlıyorum:\n\n**Senaryo:** Otomasyon hesabı 'robot.process' her dakika veri tabanından kayıt çekiyor. Bu işlem 1 yıldır kesintisiz de...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 74701.5,
+    "avg_tokens": 820.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 53,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'mert.sari' normalde sadece kendi ekibinin klasörlerine erişiyor. Bugün diğer 5 ekibin kla...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Aşağıdaki senaryoları MITRE ATT&CK ve güvenlik bilgilerimi temel alarak değerlendireceğim:\n\n**Senaryo 1:** Kullanıcı 'mert.sari' normalde sadece kendi...",
+    "avg_score": 0.667,
+    "avg_latency_ms": 140056.2,
+    "avg_tokens": 995.0,
+    "run_scores": [
+      0.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 54,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'dilan.yildiz' şirket VPN'ine bağlı değilken şirket içi bir kaynağa erişmeye çalıştı ve er...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizleri aşağıda sunulmaktadır:\n\n**Senaryo 1:** Kullanıcı VPN'e bağlı değilken şirket içi bir kaynağa erişmeye çalıştı.\n\n1. Karar: **ANOMALİ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 130968.6,
+    "avg_tokens": 970.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 55,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'bahar.cetin' hastalık izninde. Sisteme bugün giriş yapıldı ama izin kaydında mobil erişim...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Bana göre, senaryo ile ilgili değerlendirme şöyledir:\n\n**Senaryo 1:** Kullanıcı bahar.cetin'nin hastalık izni olması ve sisteme giriş yapması, ancak m...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 110525.7,
+    "avg_tokens": 689.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 56,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Giriş sayfasına farklı IP adreslerinden 1 saatte 50.000 başarısız giriş denemesi yapıldı. Denemeler ...",
+    "beklenen": "BRUTE FORCE / CREDENTIAL STUFFING",
+    "tahmin_ozet": "Senaryo için analiz:\n**Saldırganın girişleri**\n\n1. **Karar:** ANOMALİ\n2. **Risk Seviyesi:** YÜKSEK\n3. **Gerekçe:** Farklı IP'lerden gelen sistematik g...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 117061.2,
+    "avg_tokens": 916.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 57,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı hesabı başarıyla giriş yaptıktan sonra anında şirketin kaynak kod deposunu klonlamaya başl...",
+    "beklenen": "HESAP ELE GEÇİRME / INSIDER THREAT",
+    "tahmin_ozet": "Senaryo değerlendirmesi için hazırladım:\n\n**Eylem 1:** Kullanıcı hesabı başarıyla giriş yaptıktan sonra anında şirketin kaynak kod deposunu klonlamaya...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 117947.4,
+    "avg_tokens": 916.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 58,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'taner.ozkan' şirket ağından çıkış yaptı. 10 dakika sonra aynı IP'den ama farklı user-agen...",
+    "beklenen": "NORMAL / DÜŞÜK RİSK",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**Senaryo 1: Kullanıcı 'taner.ozkan' şirket ağından çıkış yaptı**\n\n1. Karar: ANOMALİ\n2. Risk Seviyesi: ORTA\n3. Gerek...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 119859.8,
+    "avg_tokens": 968.0,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 59,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Şirkette çalışan eşler 'ahmet.ozkan' ve 'ayse.ozkan' aynı projeye atandı. İkisi de projenin tüm dosy...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryoları değerlendireceğim.\n\n**Senaryo 1:** Ahmet ve Ayşe, projenin aynı dosyasını aynı anda düzenlemek için ihtiyaç duyuyorlar.\n\n1. Karar: **NORMA...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 133653.6,
+    "avg_tokens": 1074.7,
+    "run_scores": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 60,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Kritik değişiklikler production ortamında en az 24 saat önceden planlanmalı. Acil güvenlik...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo incelemesi ve öneriler aşağıdaki gibidir:\n\n**Senaryo 1: Değişiklik Yönetim Süreci Atlandı**\n\n1. Karar: **POLİTİKA İHLALİ**\n2. Risk Seviyesi: *...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 122068.3,
+    "avg_tokens": 951.3,
+    "run_scores": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 61,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'recep.ak' sabah 09:00'da sisteme giriş yaptı ve öğle arası 12:30-13:30 arasında oturumu k...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizlerine başlıyorum:\n\n**1. Normal Senaryo**\n\n* Kullanıcı 'recep.ak' sabah 09:00'da sisteme giriş yaptı ve öğle arası 12:30-13:30 arasında ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 188223.4,
+    "avg_tokens": 1249.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 62,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'sibel.koc' son 1 haftadır her gün farklı bir IP adresinden bağlanıyor. IP adresleri Türki...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Bu senaryoyu değerlendireceğim.\n\n**Senaryo:** Kullanıcı 'sibel.koc' son 1 haftadır her gün farklı bir IP adresinden bağlanıyor. IP adresleri Türkiye, ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 124546.9,
+    "avg_tokens": 793.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 63,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Hukuk departmanı çalışanı 'avukat.yilmaz' bir dava nedeniyle IT sistemlerine geçici erişim talep ett...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Bu senaryoyu analiz edeceğim:\n\n**Senaryo:** Hukuk departmanı çalışanı 'avukat.yilmaz' bir dava nedeniyle IT sistemlerine geçici erişim talep etti.\n\n**...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 138252.3,
+    "avg_tokens": 849.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 64,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Birden fazla çalışan hesabı aynı anda şirketin bulut depolama sistemine bağlandı ve her biri farklı ...",
+    "beklenen": "KOORDİNELİ INSIDER THREAT",
+    "tahmin_ozet": "Senaryoları değerlendiriyorum:\n\n**Senaryo 1**\n\n* İlgili güvenlik bilgisi: T1530 - Data from Cloud Storage (Bulut Depolamadan Veri Toplama)\n* Göstergel...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 271306.2,
+    "avg_tokens": 1327.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 65,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Test ortamında çalışan otomatik test betiği her gece 23:00-01:00 arasında veritabanına bağlanıp test...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirilmesi:\n\n**1. Karar:** NORMAL\n**2. Risk Seviyesi:** DÜŞÜK\n**3. Gerekçe:** Otomatik test betiği her gece 23:00-01:00 arasında verita...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 238244.5,
+    "avg_tokens": 1216.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 66,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'erhan.celik' normalden 3 kat daha fazla oturumu olan bir hesapla giriş yaptı ve kısa süre...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirme zamanı! İlgilendiğin senaryodan ve MITRE ATT&CK'ten referans aldım.\n\n**Senaryo:**\n\nKullanıcı 'erhan.celik' normalden 3 kat daha ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 113364.8,
+    "avg_tokens": 864.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 67,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Çalışanlar şirket e-posta adresini kişisel sosyal medya hesapları için kullanamaz. Çalışan...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo analizine başlayacağım.\n\n**Senaryo:** Çalışanlar şirket e-posta adresini kişisel sosyal medya hesapları için kullanamaz, ancak çalışan 'ece.ar...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 161708.9,
+    "avg_tokens": 1107.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 68,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Gizlilik sözleşmesi (NDA) kapsamındaki veriler yalnızca şirket cihazlarında işlenebilir. Ç...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo 1:\n**Politika:** Gizlilik sözleşmesi (NDA) kapsamındaki veriler yalnızca şirket cihazlarında işlenebilir.\n**Durum:** Çalışan, şirket VPN'sini ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 233737.1,
+    "avg_tokens": 1422.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 69,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Temizlik personeli 'gorevli.osman' ofis binasına giriş kartıyla girebiliyor ama sunucu odasına ve yö...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo değerlendirmesi için:\n\n**1. Senaryo:** Temizlik personeli 'gorevli.osman' ofis binasına giriş kartıyla girebiliyor ama sunucu odasına ve yönet...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 83469.7,
+    "avg_tokens": 739.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 70,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Bir çalışan şirket ağında bilinmeyen bir cihaz tespit etti. Cihaz şirket asset listesinde yok, ağa k...",
+    "beklenen": "ROGUE DEVICE / APT",
+    "tahmin_ozet": "Senaryo değerlendirme işlemini gerçekleştireceğim.\n\n**1. Senaryo:** Bir çalışan şirket ağında bilinmeyen bir cihaz tespit etti. Cihaz şirket asset lis...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 103402.2,
+    "avg_tokens": 838.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 71,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'nazli.sen' her Cuma öğleden sonra erken çıkış yapıyor. Sistemden çıkış saati tutarlı olar...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryoları değerlendirecek ve her birine karşılık gelecek:\n\n**Senaryo 1:** Kullanıcı 'nazli.sen' Cuma öğleden sonra erken çıkış yapmayı planlıyordu, ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 220634.3,
+    "avg_tokens": 1338.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 72,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'ferhat.yilmaz' sosyal mühendislik farkındalık testi kapsamında sahte phishing e-postasına...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo incelemesi:\n\n**Senaryo 1:**\n\nKullanıcı 'ferhat.yilmaz' sosyal mühendislik farkındalık testi kapsamında sahte phishing e-postasına tıkladı ve ş...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 198278.6,
+    "avg_tokens": 1272.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 73,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirket CEO'sunun e-posta adresiyle çalışanlara acil havale talebi içeren mesajlar gönderildi. E-post...",
+    "beklenen": "PHISHING / BEC",
+    "tahmin_ozet": "Eşittir, senaryoyu değerlendireceğim:\n\n**Senaryo 1:**\nT1566 - Phishing (Oltalama)\n* Taktik: Initial Access\n* Açıklama: Saldırganlar sahte e-posta ile ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 168885.8,
+    "avg_tokens": 1306.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 74,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Denetçi firma çalışanı 'dis.denetci' yıllık denetim için şirketin finansal sistemlerine salt okunur ...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Yapacağım değerlendirme:\n\n**Senaryo:** Firma çalışanı \"dis.denetci\" finansal sistemlere salt okunur erişim aldı.\n\n**Karar:** ANOMALİ\n\n**Risk Seviyesi:...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 97390.6,
+    "avg_tokens": 809.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 75,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'ozge.sahin' ofis dışındayken mobil uygulamadan e-postalarını kontrol etti. Uygulamanın er...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizi için hazırlanacak olan aşağıdaki tablo ile devam edeceğim.\n| No | Senaryo | Karar | Risk Seviyesi | Gerekçe | Önerilen Aksiyon |\n| ---...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 94751.8,
+    "avg_tokens": 799.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 76,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'mustafa.ak' yanlışlıkla başka bir kullanıcının dosyasını açmaya çalıştı, erişim reddedild...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizleri aşağıda belirtilmiştir:\n\n**Senaryo 1:**\n* Kullanıcı \"mustafa.ak\" yanlışlıkla başka bir kullanıcının dosyasını açmaya çalıştı ve eri...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 170104.5,
+    "avg_tokens": 1139.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 77,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Şifreler en az 12 karakter, büyük harf, küçük harf, rakam ve özel karakter içermeli. Kulla...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 78,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin bir sunucusu gece yarısı aniden çok fazla işlemci kullanmaya başladı. Sunucu üzerinde kript...",
+    "beklenen": "CRYPTOJACKING",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 79,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'hande.ozturk' 2 yıldır aynı rolde çalışıyor. Bu sürede herhangi bir yetki değişikliği olm...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 80,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Veri koruma görevlisi (DPO) 'dpo.uzman' tüm sistemlerdeki kişisel verilere erişim hakkı talep ediyor...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Ben, siber güvenlik uzmanı olarak, aşağıdaki senaryoları değerlendireceğim:\n\n**Senaryo 1:** DPO \"dpo.uzman\" tüm sistemlerdeki kişisel verilere erişim ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 192831.5,
+    "avg_tokens": 1148.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 81,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Muhasebe sistemi her ayın son iş günü yoğun kullanım görüyor. Bu ay da aynı şekilde yoğun kullanım g...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**1. Senaryo:** Muhasebe sistemi her ayın son iş günü yoğun kullanım görüyor. Bu ay da aynı şekilde yoğun kullanım g...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 77934.0,
+    "avg_tokens": 726.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 82,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'tarık.sen' şirket sistemine tor ağı üzerinden bağlanmaya çalıştı. Bağlantı güvenlik duvar...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo incelemesi:\n\n1. **Karar:** ANOMALİ\n2. **Risk Seviyesi:** ORTA\n3. **Gerekçe:** Kullanıcı 'tarık.sen' tor ağı üzerinden şirket sistemine bağlant...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 95448.6,
+    "avg_tokens": 776.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 83,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Çalışanlar iş cihazlarına onaysız yazılım yükleyemez. Kullanıcı IT onayı olmadan kişisel k...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Bu senaryolarda, MITRE ATT&CK ve güvenlik bilgilerini kullanarak erişim yönetimi senaryolarını değerlendireceğim:\n\n**Senaryo 1:**\nKullanıcı IT onayı o...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 154246.9,
+    "avg_tokens": 1039.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 84,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirket ağında bir cihaz, iç ağdaki tüm IP adreslerine sistematik olarak port taraması yapıyor. Cihaz...",
+    "beklenen": "INSIDER THREAT / ARAÇ SUISTIMALI",
+    "tahmin_ozet": "Senaryo analizimi yaparak aşağıdaki sonuçları elde edebiliriz:\n\n**Senaryo 1:**\n- Cihazın port taraması yapması normal bir işleyiştir.\n- Ancak cihazın ...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 87134.4,
+    "avg_tokens": 744.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 85,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'volkan.yildiz' 1 saatte 3 farklı sistemde şifre sıfırlama talebinde bulundu. Her seferind...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Bu senaryoyu analiz edeceğim.\n\n**Senaryo:** Kullanıcı 'volkan.yildiz' 1 saatte 3 farklı sistemde şifre sıfırlandırma talebinde bulundu. Her seferinde ...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 81745.2,
+    "avg_tokens": 900.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 86,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "İnsan kaynakları uzmanı 'hr.uzman' tüm çalışanların maaş bilgilerine, performans değerlendirmelerine...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Erişim yönetimi senaryosunu değerlendiriyorum:\n\n**Senaryo 1:** HR Uzmanı, kişisel ve performans bilgilerine erişebilir, ancak maaş bilgileri için yetk...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 181405.8,
+    "avg_tokens": 1173.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 87,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirketin web sunucusu arama motoru botlarından sürekli taranıyor. Bu durum aylar boyunca gözlemleniy...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Bunun için senaryolara göre değerlendirmeler yapacağım.\n\n**Senaryo 1: Arama motoru botlarından sürekli taranma**\n\n1. **Karar:** NORMAL\n2. **Risk Seviy...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 167146.0,
+    "avg_tokens": 1137.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 88,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Felaket kurtarma testleri yılda iki kez yapılmalı. Şirket son 18 aydır test yapmadı. Bilgi...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo değerlendirme işlemini aşağıdaki gibi yapabiliriz:\n\n**1. Senaryo: Testlerin Erteleme Kararı**\n* Karar: **POLİTİKA İHLALİ**\n* Risk Seviyesi: **...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 169700.5,
+    "avg_tokens": 1124.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 89,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcının bilgisayarındaki tüm dosyalar şifrelendi ve ekranda fidye notu belirdi. Ağdaki diğer pa...",
+    "beklenen": "RANSOMWARE",
+    "tahmin_ozet": "Senaryo analiz edeceğim:\n\n**Senaryo 1:**\nKullanıcı bilgisayarındaki tüm dosyalar şifrelendi ve ekranda fidye notu belirdi.\n\n1. **Karar:** ANOMALİ\n2. R...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 155016.2,
+    "avg_tokens": 1103.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 90,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'gulce.ozkan' 6 ay boyunca hiç sisteme giriş yapmadı. Hesap hala aktif....",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo: Kullanıcı 'gulce.ozkan' 6 ay boyunca hiç sisteme giriş yapmadı, ancak hesap hala aktif.\n\n1. Karar: ANOMALİ\n2. Risk Seviyesi: YÜKSEK\n3. Gerekç...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 74136.6,
+    "avg_tokens": 729.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 91,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Yazılım test mühendisi 'qa.uzman' test ortamında tüm veritabanlarına tam erişime sahip. Üretim ortam...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Aşağıdaki senaryo değerlendirme sonuçları MITRE ATT&CK ve güvenlik bilgilerinin ışığında hazırlanmıştır.\n\nSenaryo 1:\n**Erişim Yönetimi Senaryosu:** Ya...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 179437.4,
+    "avg_tokens": 1157.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 92,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin DNS sunucusu bir kullanıcının bilgisayarından sıra dışı şekilde çok sayıda DNS sorgusu alıy...",
+    "beklenen": "DNS TÜNELİ / VERİ SIZDIRMA",
+    "tahmin_ozet": "Senaryo değerlendirme işleme!\n\n**Senaryo 1:** Şirketin DNS sunucusu bir kullanıcının bilgisayarından sıra dışı şekilde çok sayıda DNS sorgusu alıyor.\n...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 135210.0,
+    "avg_tokens": 1019.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 93,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirket içi sohbet uygulamasında kullanıcı 'aydin.kara' ekip üyeleriyle proje dosyalarını paylaştı. T...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 94,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Müşteri şikayetleri 24 saat içinde yanıtlanmalı. Müşteri hizmetleri sistemi 48 saatlik bir...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 95,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Şirketin CISO'su tüm güvenlik sistemlerine ve loglarına tam erişime sahip. Finans ve İK sistemlerine...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Bu senaryo, MITRE ATT&CK'te tanımlanan erişim yönetimi saldırı vektörlerine uygun olarak değerlendirilebilir. Aşağıdaki sonuçlar elde edilmiştir:\n\n**S...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 161457.7,
+    "avg_tokens": 1025.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 96,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'seda.yilmaz' yeni bir proje için farklı departmanlarla çalışmaya başladı. Son 2 haftada 5...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Bu senaryoyu MITRE ATT&CK ve güvenlik bilgilerimize referans olarak değerlendireceğim.\n\n**Senaryo 1:** Kullanıcı 'seda.yilmaz' yeni bir proje için far...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 179835.8,
+    "avg_tokens": 1189.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 97,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirketin web uygulamasına gelen HTTP isteklerinde SQL sorguları içeren parametreler tespit edildi: '...",
+    "beklenen": "SQL INJECTION",
+    "tahmin_ozet": "Senaryo değerlendirme:\n\n**İLGİLİ HATALAR**\nT1190 - Exploit Public Application (Web Uygulama Saldırısı)\nTaktik: Initial Access\nAçıklama: Saldırganlar w...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 113432.0,
+    "avg_tokens": 882.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 98,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Tüm sunucular aylık güvenlik yaması almalı. Sistem yöneticisi bu ayın yamasını zamanında u...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Benim yorumlarım aşağıda:\n\n**Senaryo 1:**\n1. Karar: POLİTİKA İHLALİ\n2. Risk Seviyesi: ORTA\n3. Gerekçe: Sistem yöneticisi, politikayı ihlal ederek sunu...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 171518.4,
+    "avg_tokens": 1187.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 99,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'ufuk.demir' şirket WiFi ağına bağlandı ve hemen ardından ağ içinde ARP taraması başladı. ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme:\n\n**Eşleşme:** T1048 - Exfiltration Over Alternative Protocol (DNS Tünelleme)\n\n**Karar:** ANOMALİ\n\n**Risk Seviyesi:** YÜKSEK\n\n**...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 98207.2,
+    "avg_tokens": 841.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 100,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin Active Directory'sinde yönetici grubuna 3 bilinmeyen hesap eklendi. Ekleme işleminin logu y...",
+    "beklenen": "APT / DOMAIN COMPROMISE",
+    "tahmin_ozet": "Senaryoyu değerlendirecekim.\n\n**Evet, normal bir senaryo.**\n\n**1. Karar:** POLİTİKA İHLALİ\n**2. Risk Seviyesi:** ORTA\n**3. Gerekçe:** Şirketteki güven...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 83512.5,
+    "avg_tokens": 761.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 101,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'berk.yildiz' ofis dışından şirket e-postasını Outlook Web App üzerinden kontrol etti. MFA...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Evet, senaryonunuzu değerlendiriyorum.\n\n**Senaryo 1:**\nUygunsuz Kullanım: Normal\nRisk Seviyesi: DÜŞÜK\nGerekçe: Kullanıcı ofis dışından şirket e-postas...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 144068.6,
+    "avg_tokens": 1044.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 102,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Yeni işe başlayan çalışanın hesabı henüz aktif edilmedi ama sistemlerde bu isimde aktif oturumlar gö...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Bu senaryoyu değerlendirmek için MITRE ATT&CK'te belirtilen bilgiler dikkate alınacaktır.\n\n**Senaryo:** Yeni işe başlayan çalışanın hesabı henüz aktif...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 104402.1,
+    "avg_tokens": 863.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 103,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Satın alma departmanı çalışanı 'satin.alma' tedarikçi sistemine okuma/yazma yetkisine sahip ama onay...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki sonuçlar elde edilebilir:\n\n1. **Satın alma departmanı çalışanının tedarikçi sistemine okuma/yazma yetkisi**: ANOMALİ\n2....",
+    "avg_score": 0.0,
+    "avg_latency_ms": 185841.2,
+    "avg_tokens": 1230.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 104,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirket web sitesinin iletişim formuna binlerce bot tarafından sahte içerik gönderiliyor. Sunucu yanı...",
+    "beklenen": "SPAM / DDoS",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları aşağıdaki gibidir:\n\n**Erişim Yönetimi Senaryosu: Binlerce Bot Tarafından Şirket Web Sitesinin İletişim Formuna Sahte İ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 95195.8,
+    "avg_tokens": 790.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 105,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Ziyaretçiler şirket ağına bağlanamaz. Ziyaretçi 'misafir.1' şirketin misafir WiFi ağına (i...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryo 1:\n\n**Misafir WiFi Ağında Erişim**\n\n* Karar: POLİTİKA İHLALİ\n* Risk Seviyesi: YÜKSEK\n* Gerekçe: Misafir WiFi ağına bağlanmak şirket politikası...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 180496.8,
+    "avg_tokens": 1165.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 106,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Kullanıcı 'kaan.arslan' şirketten istifa ettiğini açıkladı ve son iş gününde normalden az sisteme er...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo analizine başlıyorum.\n\n**Senaryo:** Kullanıcı 'kaan.arslan' şirketten istifa ettiğini açıkladı ve son iş gününde normalden az sisteme erişti. ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 114507.7,
+    "avg_tokens": 919.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 107,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Şirkette birden fazla şapka takan çalışan 'genel.mudur' hem CEO yetkilerine hem de sistem yöneticisi...",
+    "beklenen": "RİSKLİ AMA BAĞLAMLA DEĞERLENDİRİLMELİ",
+    "tahmin_ozet": "Bu senaryoda şirkette birden fazla yetki bulunan \"genel müdür\" karakterine sahip bir çalışan vardır. Bu durumdan ne gibi sonuçlar doğabileceğini değer...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 172636.6,
+    "avg_tokens": 1177.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 108,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "E-posta filtresine takılan bir mesajda 'acil kargo takibi' bahanesiyle zararlı link bulundu. 50 çalı...",
+    "beklenen": "PHISHING",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 109,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'doga.sahin' her gün düzenli olarak rapor oluşturuyor ve e-posta ile üst yöneticiye gönder...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**1. Anormal dosya boyutu**\n\n* Karar: ANOMALİ\n* Risk Seviyesi: ORTA\n* Gerekçe: Düzenli raporların dosya boyutunun no...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 143105.6,
+    "avg_tokens": 933.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 110,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Sistem değişiklikleri dört göz prensibine tabi. Bir geliştirici hem değişikliği yapıp hem ...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Bu sorunun cevabı:\n\n**Senaryo 1: Politika ihlali**\n\n1. Karar: POLİTİKA İHLALİ\n2. Risk Seviyesi: YÜKSEK\n3. Gerekçe: Sistem değişiklikleri dört göz pren...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 140727.6,
+    "avg_tokens": 1020.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 111,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirketin e-posta sunucusu günde ortalama 10.000 e-posta işliyor. Bugün 10.200 e-posta işlendi....",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki sonuçlar elde edilebilir:\n\n**Senaryo 1:** İşten ayrılmadan önce veri kopyalama şüphesi var.\n\n* Karar: ANOMALİ\n* Risk Se...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 163529.3,
+    "avg_tokens": 1150.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 112,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Şirketin penetrasyon test uzmanı 'pentest.uzman' tüm sistemlere tam erişim yetkisi talep ediyor, anc...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Senaryo 1: \"Pentest Uzmanının Erken Başvurusu\"\n\n1. Karar: POLİTİKA İHLALİ\n2. Risk Seviyesi: DÜŞÜK\n3. Gerekçe: Penetrasyon test uzmanı'nın tüm sistemle...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 217693.0,
+    "avg_tokens": 1381.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 113,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Çalışan bir uygulamaya bağlanmaya çalışırken man-in-the-middle saldırısı tespit edildi. Saldırgan ar...",
+    "beklenen": "MAN-IN-THE-MIDDLE SALDIRISI",
+    "tahmin_ozet": "Senaryo: Çalışan bir uygulamaya bağlanmaya çalışırken man-in-the-middle saldırısı tespit edildi. Saldırgan araya girerek TLS sertifikasını değiştirmey...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 86947.0,
+    "avg_tokens": 770.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 114,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'cem.yilmaz' şirket dizüstü bilgisayarından bir bulut depolama servisine (onaylı liste dış...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Yapılan analizde, ilk senaryo için aşağıdaki sonuçlar elde edilebilir:\n\n**Senaryo:** Kullanıcı 'cem.yilmaz' şirket dizüstü bilgisayarından bir bulut d...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 102003.2,
+    "avg_tokens": 874.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 115,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Çalışanlar şirket amaçlı kişisel sosyal medya paylaşımı yapamaz. Çalışan, izni olmadan şir...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo incelemesinde, şirketin politikası ihlal edildiği tespit edilmiştir.\n\n**İhlal Edilen Politika:** Çalışanlar şirket amaçlı kişisel sosyal medya...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 78995.3,
+    "avg_tokens": 731.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 116,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Şirketin resepsiyonisti 'recepsiyon.gorev' sadece ziyaretçi giriş sistemine ve dahili telefon rehber...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki adımları izleyeceğiz:\n\n**Senaryo 1:** Recep, dahili telefon rehberine erişip bir kullanıcının gizli numarasını görüntül...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 125836.6,
+    "avg_tokens": 1087.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 117,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Şirketin bir departmanında tüm kullanıcılar aynı anda sisteme giriş yaptı (09:02). Bu normalde 08:45...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki adımları takip ediyorum:\n\n1. **Karar:** POLİTİKA İHLALİ\n2. **Risk Seviyesi:** ORTA\n3. **Gerekçe:** Bu senaryoda normald...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 139435.8,
+    "avg_tokens": 1038.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 118,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Çalışan 'ali.veli' şirket bilgisayarında güvenlik açığı bulunan eski bir Java sürümü kullanıyor ve b...",
+    "beklenen": "DRIVE-BY DOWNLOAD / MALWARE ENFEKSİYONU",
+    "tahmin_ozet": "Senaryo:\n**Ali.Veli** şirket bilgisayarında güvenlik açığı bulunan eski bir Java sürümü kullanıyor ve bir web sitesi ziyaretinde tarayıcı aniden kapan...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 89858.8,
+    "avg_tokens": 758.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 119,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Ayrılan çalışanların hesapları ayrılış günü devre dışı bırakılmalı. İK departmanı ayrılan ...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryo analizi yapacağım:\n\n**Senaryo 1:**\n\nPolitika: Ayrılan çalışanların hesapları ayrılış günü devre dışı bırakılmalıdır.\n\nİlgili Bilgiler:\n- Kulla...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 185434.4,
+    "avg_tokens": 1208.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 120,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'pelin.arslan' şirket ağına bağlıyken arka planda sürekli dış IP adreslerine küçük paketle...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirme aşamasında, sizden bu bilgileri belirlememiniz istendi. Ben yalnızca yorumlar yapacağım.\n\n1. Karar: ANOMALİ\n2. Risk Seviyesi: YÜ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 90099.6,
+    "avg_tokens": 790.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 121,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'kerem.kaya' hafta sonu evinden şirket sistemine bağlandı ve proje dosyalarını düzenledi. ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Tabii ki! Senaryo analizi için hazırım.\n\n**Senaryo 1: Normal**\nKullanıcı 'kerem.kaya' hafta sonu evinden şirket sistemine bağlandı ve proje dosyaların...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 145975.7,
+    "avg_tokens": 1051.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 122,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Yazılım geliştirici ekibi lideri 'tech.lead' kendi yazdığı kodları production'a doğrudan deploy edeb...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**Erişim Yönetimi Senaryosu:**\n\n1. **Karar:** ANOMALİ\n2. **Risk Seviyesi:** ORTA\n3. **Gerekçe:** Yazılım geliştirici...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 79061.9,
+    "avg_tokens": 753.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 123,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Şirketin e-posta sunucusu başka ağlara spam gönderiyor. Sunucu kara listeye alınmış....",
+    "beklenen": "KOMPROMİZE SUNUCU / BOTNET",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 124,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Güvenlik operasyon merkezi (SOC) analisti 'soc.analisti' bir olay soruşturması sırasında normalde er...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo: Kimlik Bilgisi Doldurma (Credential Stuffing) Erişim Yönetimi Senaryosu\n\n1. **Karar**: ANOMALİ\n2. **Risk Seviyesi**: ORTA\n3. **Gerekçe**: Nor...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 145344.1,
+    "avg_tokens": 858.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 125,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Tüm API erişimleri kayıt altına alınmalı. Bir microservice diğer servislere kayıt tutmadan...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryoları değerlendireceğim:\n\n**Senaryo 1:** Bir microservice diğer servislere kayıt tutmadan istek gönderiyor.\n\n1. **Karar**: POLİTİKA İHLALİ\n2. **...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 150264.0,
+    "avg_tokens": 1014.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 126,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirketin yazıcı sunucusu mesai saatlerinde yüzlerce sayfa baskı işlemi alıyor. Bu durum her iş günü ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Merhaba! Bu senaryo için, şirketin yazıcı sunucusunun mesai saatlerinde yüzlerce sayfa baskı işlemi yapmasına neden olan durumun analiz edeceğim.\n\n**S...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 157902.6,
+    "avg_tokens": 1091.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 127,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin tedarik zincirinde kullanılan bir yazılım güncellemesi, güncelleme dosyasına zararlı kod ek...",
+    "beklenen": "SUPPLY CHAIN ATTACK",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçlarım:\n\n**Senaryo 1:**\nBilgisayar sisteminde güncelleme yüklendiğinde, sistem yöneticisi normal bir güncelleme olarak gördü...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 184345.5,
+    "avg_tokens": 1217.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 128,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Şirkete yeni katılan yazılım geliştiricisi 'yeni.dev' sadece geliştirme ortamına erişebiliyor. Üreti...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Sevgili koleksiyon, bu soruya cevap vereceğim:\n\n**Senaryo 1:** Yazılım geliştiricisi \"yeni.dev\" üretim ortamına erişimi var, ancak bunun gereksiz oldu...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 145679.8,
+    "avg_tokens": 1058.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 129,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'emre.arslan' normalde 08:00-17:00 çalışıyor. Bugün gece 22:00'de bir mesleki kursdan sonr...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo 1: \nKullanıcı 'emre.arslan' 08:00-17:00 saatleri dışında sistemine giriş yaptı.\n\n1. Karar: ANOMALİ\n2. Risk Seviyesi: ORTA\n3. Gerekçe: Gece saa...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 175630.6,
+    "avg_tokens": 1172.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 130,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: İşe alım süreçlerinde aday referans kontrolü zorunlu. İK departmanı yoğunluk nedeniyle bir...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki değerlendirmeler yapılacak:\n\n**Senaryo 1:** İK departmanı aday referans kontrolünü atladı.\n\n* **Karar:** POLİTİKA İHLAL...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 161648.7,
+    "avg_tokens": 1126.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 131,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Muhasebe yazılımı yılsonu kapanış döneminde normalde 5 kat fazla işlem işliyor. Bu durum her yılın A...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizine başlıyorum.\n\n**Senaryo 1:** Muhasebe yazılımı yılsonu kapanış döneminde normalde 5 kat fazla işlem işliyor.\n\n1. **Karar**: ANOMALİ\n2...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 182468.3,
+    "avg_tokens": 1231.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 132,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirkete ait bir çalışanın kimlik bilgileri dark web'de satışa çıkarılmış olarak tespit edildi. Çalış...",
+    "beklenen": "KİMLİK BİLGİSİ SIZMASI",
+    "tahmin_ozet": "Senaryo analizi için, aşağıdaki adımları takip edeceğim:\n\n**Erişim Yönetimi Senaryosu Analizi**\n\n### 1. Çalışanın Kimlik Bilgisinin Dark Web'de Satışa...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 195173.7,
+    "avg_tokens": 1247.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 133,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Şirketin bulut altyapısında bir IAM rolü, atandığı servisten çok daha geniş kaynaklara erişim yetkis...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Sevgili arkadaşım, seni senaryo için analiz edeceğim ve aşağıdaki sonuçları elde edeceğim:\n\n**Senaryo 1:**\n\n* Rolün kapsamı çok geniş, birden fazla se...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 141432.1,
+    "avg_tokens": 1038.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 134,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Şirketin API gateway'i gece 03:00'de yoğun trafik aldı. Trafik kaynağı Asya'daki meşru müşteri hesap...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryoları inceleyip değerlendireceğim.\n\n**Senaryo 1: API Gateway'inin Gece Trafik Alması**\n\n1. **Karar**: Anomali\n2. **Risk Seviyesi**: Orta\n3. **Ge...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 159507.8,
+    "avg_tokens": 1086.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 135,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Tüm kritik sistemlerin yedekleri günlük alınmalı. Yedekleme sistemi 3 gündür hata veriyor ...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo değerlendiriliyor:\n\n**Senaryo:** Politika ihlali: Yedekleme sisteminin hata verdiği fark edildi, ancak IT ekibi bu durumun politikaya aykırılı...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 233689.0,
+    "avg_tokens": 1431.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 136,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Çalışan bir USB bellek buldu ve merakla şirket bilgisayarına taktı. Bilgisayar hemen otomatik çalışa...",
+    "beklenen": "BAITING / MALWARE",
+    "tahmin_ozet": "Evet, senaryoyu değerlendireceğim.\n\n**Senaryo:** Çalışan bir USB bellek buldu ve merakla şirket bilgisayarına taktı. Bilgisayar hemen otomatik çalışan...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 97474.7,
+    "avg_tokens": 814.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 137,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Şirketin bir sunucusunda CPU kullanımı gündüzleri %20, geceleri %80 civarında. Sunucu üzerinde gece ...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo 1:\nSunucu üzerinde gece işleri (batch job) tanımlanmamış, ancak CPU kullanımı geceleri %80 civarında.\n**Karar:** ANOMALİ\n**Risk Seviyesi:** OR...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 174417.8,
+    "avg_tokens": 1137.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 138,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Şirketin muhasebe müdürü 'muhasebe.mudur' tüm çalışanların maaş bilgilerini görebiliyor. Kendi astla...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryoları değerlendireceğim.\n\n**Senaryo 1:** Muhasebe Müdürü, kendisine atanmış olan yetkeleri dışında, maaş bilgilerini görüntülemeye devam ediliyo...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 157407.7,
+    "avg_tokens": 1082.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 139,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'seda.kara' her sabah ofise geldiğinde bilgisayarını açıyor ve e-postalarını kontrol ediyo...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo: Seda Kara'nın e-posta hesabına erişimini kontrol ediyorum.\n\n1. Karar: NORMAL\n2. Risk Seviyesi: DÜŞÜK\n3. Gerekçe: Normal bir iş günü içerisind...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 79513.3,
+    "avg_tokens": 737.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 140,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin bir departman yöneticisi, çalışanlardan birine mesajlaşma uygulamasından ulaşarak şirket si...",
+    "beklenen": "SOSYAL MÜHENDİSLİK / HESAP ELE GEÇİRME",
+    "tahmin_ozet": "Senaryo değerlendirme işlemini MITRE ATT&CK referans alınarak aşağıda belirttiğim şekilde yapacağım:\n\n**Senaryo 1:** Departman yöneticisi, çalışanlard...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 167554.0,
+    "avg_tokens": 1129.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 141,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'alper.yildiz' şirket sistemine giriş yaptı ve hemen Active Directory'de tüm kullanıcı hes...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo analizine başlıyorum.\n\n**Senaryo 1:** Kullanıcı \"alper.yildiz\" şirket sistemine giriş yaptı ve hemen Active Directory'de tüm kullanıcı hesapla...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 152610.8,
+    "avg_tokens": 1058.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 142,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Gizlilik sınıflandırması 'Çok Gizli' olan belgeler şifreli olarak saklanmalı. Belge şifrel...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Ben siber güvenlik uzmanı olarak aşağıda verilen senaryoları değerlendireceğim:\n\n**Senaryo 1:**\nBir kullanıcı \"çoğunlukla gizli\" sınıfında olan bir be...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 165694.7,
+    "avg_tokens": 1131.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 143,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirket çalışanı bir iş görüşmesi bahanesiyle şirket dışından biri tarafından arandı ve teknik altyap...",
+    "beklenen": "SOSYAL MÜHENDİSLİK / VİSHİNG",
+    "tahmin_ozet": "Senaryo değerlendirme işlemini adım adım yapacak ve her senaryoda ilgili verileri sağlayacağım:\n\n**Senaryo 1: Çalışan iş görüşmesi bahanesiyle teknik ...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 193848.9,
+    "avg_tokens": 1210.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 144,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Bulut ortamında bir Lambda fonksiyonu S3 kovasına yazma yetkisine sahip. Fonksiyonun görevi yalnızca...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Erişim yönetimine ilişkin senaryoları değerlendiriyorum:\n\n**Senaryo 1:**\n- **Karar:** ANOMALİ\n- **Risk Seviyesi:** YÜKSEK\n- **Gerekçe:** Lambda fonksi...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 188668.8,
+    "avg_tokens": 1227.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 145,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Şirketin SIEM sisteminde son 24 saatte hiç alarm üretilmedi. Önceki aylarda günde ortalama 50-100 dü...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**Erişim Yönetim Senaryosu**\n\n1. **Karar:** ANOMALİ\n2. **Risk Seviyesi:** YÜKSEK\n3. **Gerekçe:** 24 saatte hiç alarm...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 105877.8,
+    "avg_tokens": 803.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 146,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Üçüncü taraf yazılımların güvenlik değerlendirmesi yapılmadan kullanıma alınamaz. Proje ek...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Aşağıdaki senaryoları analiz ediyorum:\n\n**Senaryo 1:**\nPolitika ihlali (ANOMALİ)\nRisk Seviyesi: YÜKSEK\nGerekçe: Üçüncü taraf yazılımların güvenlik değ...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 156919.5,
+    "avg_tokens": 1049.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 147,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Şirket web sitesinin giriş sayfasında JavaScript kodu değiştirilmiş. Kullanıcılar giriş yaptığında k...",
+    "beklenen": "WEB SKIMMING / MAGECART",
+    "tahmin_ozet": "Senaryo: Şirket web sitesinin giriş sayfasında JavaScript kodu değiştirilmiş. Kullanıcılar giriş yaptığında kimlik bilgileri saldırganın sunucusuna da...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 97031.7,
+    "avg_tokens": 811.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 148,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Şirketin güvenlik duvarı logları incelendiğinde aynı iç IP'nin her gece 01:00'de belirli bir dış IP'...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo incelemesi:\n\n**İlgili Güvenlik Bilgisi:** Erişim Yönetimi - Kimlik Bilgisi Doldurma Saldırısı (Credential Stuffing)\n\n**Gözlemlenen Olay:** Şir...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 116951.1,
+    "avg_tokens": 934.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 149,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Şirkette tüm yazılım geliştiricilere kendi kod depolarını yönetme (push/pull/merge) yetkisi verilmiş...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Umarım bu soruları değerlendiririm.\n\n**Senaryo 1:**\nGeliştiricinin kendi kod depolarını yönetim yetkisi ile production branch'e merge yapabilme yetkis...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 168423.0,
+    "avg_tokens": 1213.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 150,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin kritik sistemlerinden birine, meşru bir yazılım güncellemesinin içine gizlenmiş bir arka ka...",
+    "beklenen": "APT / SUPPLY CHAIN ATTACK",
+    "tahmin_ozet": "Senaryo analizleri aşağıdaki gibi olacaktır:\n\n**Senaryo 1:** Meşru bir yazılım güncellemesinin içine gizlenmiş arka kapı (backdoor) tespit edildi.\n\n1....",
+    "avg_score": 0.0,
+    "avg_latency_ms": 150222.7,
+    "avg_tokens": 1138.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 151,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'ilkay.oz' şirkete yeni katıldı ve onboarding süreci kapsamında temel sistemlere erişim al...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Siber güvenlik konusunda uzman olduğum için, senaryoyu değerlendirip önerim olarak aşağıdaki gibi olacaktır:\n\n**Senaryo 1:** İlkay Oz yeni katıldı ve ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 144760.3,
+    "avg_tokens": 1092.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 152,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Tüm çalışanlar yıllık güvenlik farkındalık eğitimini tamamlamalı. Çalışan 'ismail.kaya' bu...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryo:\nErgin ismi \"ismail.kaya\" olan çalışan, güvenlik farkındalık eğitimini tamamladı ve sertifika aldı. Bu durum politikada belirtilmiştir.\n\n1. Ka...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 74974.0,
+    "avg_tokens": 734.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 153,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Şirketin sosyal medya yöneticisi resmi hesaplarda içerik yayınlayabiliyor ama reklam kampanyası başl...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryoları değerlendiriyorum.\n\n**Senaryo 1:** Şirketin sosyal medya yöneticisi resmi hesaplarda içerik yayınlayabiliyor ama reklam kampanyası başlatm...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 141616.2,
+    "avg_tokens": 1066.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 154,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Şirketin bir departmanındaki tüm çalışanlar aynı şifreyi kullanıyor: 'Departman2024!'. Bu durum IT t...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Bu senaryoda, şirketin departmanındaki çalışanların aynı şifreyi kullanıyor olması, bir güvenlik riskine işaret ediyor. Bu durumun değerlendirilmesi i...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 91745.8,
+    "avg_tokens": 839.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 155,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirketin çalışanlarına e-posta yoluyla 'yeni HR portalına kaydolun' içerikli bir mesaj gönderildi. L...",
+    "beklenen": "SPEAR PHISHING",
+    "tahmin_ozet": "Senaryo değerlendirilirken, MITRE ATT&CK tehdit modellerinin ve güvenlik bilgilerinin referans alınarak analiz yapacağım.\n\n**Senaryo 1:**\n\n* Şirket ça...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 130526.1,
+    "avg_tokens": 1038.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 156,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Kritik sistemlere erişimde MFA zorunlu. Yeni bir uygulama entegre edildi ancak MFA henüz y...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo ve öneriler aşağıda listelenmiştir:\n\n**Senaryo 1:** Uygulamanın entegrasyonu tamamlanmadan kritik sistemlere erişmeye çalışılan bir kullanıcın...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 172045.5,
+    "avg_tokens": 1070.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 157,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirket içi wiki sistemi her gün yüzlerce sayfa görüntülenmesi alıyor. Çalışanlar düzenli olarak pros...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Merhaba! Senaryoları değerlendirip, kararlarımı aşağıda belirttikten sonra neden ve önerilerimi açıklıyorum:\n\n**Senaryo 1:** Şirket içi wiki sistemi h...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 126674.8,
+    "avg_tokens": 1001.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 158,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Şirketin bulut ortamında bir servis hesabı tüm IAM izinlerine sahip (iam:*). Bu hesap yalnızca log t...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Senaryoların değerlendirilmesinde MITRE ATT&CK ve ilgili güvenlik bilgilerini referans alacak şekilde aşağıdaki sonuçlar elde edilebilir:\n\n**Senaryo 1...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 76032.4,
+    "avg_tokens": 770.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 159,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Bir çalışanın bilgisayarında fidye yazılımı tespit edildi ancak şifreleme başlamadan önce EDR sistem...",
+    "beklenen": "RANSOMWARE GİRİŞİMİ (ENGELLENDİ)",
+    "tahmin_ozet": "Bu senaryoyu değerlendirirken, MITRE ATT&CK teknikleri ile ilgili bilgilerin temelinde hareket edeceğim.\n\n**Senaryo**: Fidye yazılımı tespit edildiği ...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 100605.8,
+    "avg_tokens": 880.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 160,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'canan.demir' şirket dizüstünden bir cafeden çalışıyor. Halka açık WiFi üzerinden VPN bağl...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo 1:\nKullanıcı Canan Demir, halka açık WiFi üzerinden VPN bağlantısı kurarak şirket sistemlerine erişti.\n\n1. Karar: NORMAL\n2. Risk Seviyesi: DÜŞ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 69175.8,
+    "avg_tokens": 729.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 161,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Tüm veri işleme faaliyetleri veri envanterine kayıt edilmeli. Yeni bir iş süreci başlatıld...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryoları değerlendirirken, MITRE ATT&CK ve güvenlik bilgilerini referans aldım.\n\n**Senaryo 1:**\nPolitika ihlali\n\n* Karar: POLİTİKA İHLALİ\n* Risk Se...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 130632.5,
+    "avg_tokens": 1032.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 162,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Şirketin kimlik doğrulama sunucusu gece 02:00-02:15 arasında tam olarak 0 giriş isteği aldı. Normald...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo değerlendirmesine başlıyorum.\n\n**Senaryo:** Şirketin kimlik doğrulama sunucusu gece 02:00-02:15 arasında tam olarak 0 giriş isteği aldı. Norma...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 79315.7,
+    "avg_tokens": 755.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 163,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Şirket güvenlik ekibi 'soc.ekip' tüm sistemlerin güvenlik loglarını izleyebiliyor ama sistemlerde de...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryoları değerlendiriyor olursam:\n\n**Senaryo 1:** SIEM sisteminin anormal davranışları (sıfır alarm üretmemesi)\n\n1. **Karar:** ANOMALİ\n2. **Risk Se...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 103558.1,
+    "avg_tokens": 986.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 164,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirketin web uygulamasına giriş sayfasına özel hazırlanmış bir HTML sayfası gönderilerek tarayıcı be...",
+    "beklenen": "REMOTE CODE EXECUTION (RCE)",
+    "tahmin_ozet": "Senaryo analizine başlıyorum.\n\n**İlk İlgili Güvenlik Bilgisini Analiz Ettim**\n\n* **Saldırganın amaçları**: Sızdırılmış kullanıcı adı/şifre listesini o...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 138395.2,
+    "avg_tokens": 1076.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 165,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'halil.sen' yıllık izinden döndüğünde sisteme giriş yaptı ve birikmiş e-postalarını kontro...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Bu senaryo için, 3 kez T1078 - Valid Accounts (Geçerli Hesapların Kötüye Kullanımı) taktiği ve ilgili göstergeleri listelediğinizi görüyorum. Senaryon...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 146092.1,
+    "avg_tokens": 1087.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 166,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Yazılım geliştirmede açık kaynak bileşenler lisans uyumluluğu kontrol edilmeden kullanılam...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Umarım yardımcı olabilirim!\n\n**Senaryo 1: GPL lisanslı kütüphane ticari ürüne dahil edilmesi**\n\n1. Karar: **POLİTİKA İHLALİ**\n2. Risk Seviyesi: **ORTA...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 149144.9,
+    "avg_tokens": 1138.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 167,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Proje yöneticisi 'pm.uzman' projeyle ilgili tüm toplantı kayıtlarına, proje dosyalarına ve iletişim ...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Umarım yardımcı olabilirim!\n\n**Erişim Yönetimi Senaryosu**\n\n### Senaryo 1:\n\nProje yöneticisi pm.uzman, finansal raporlara erişim elde etmeye çalışıyor...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 163895.7,
+    "avg_tokens": 1182.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 168,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin LDAP sunucusuna dış ağdan bağlantı denemeleri yapılıyor. Denemeler şirketin genel müdürü, C...",
+    "beklenen": "HEDEFLI SALDIRI / SPEAR CREDENTIAL ATTACK",
+    "tahmin_ozet": "Ben siber güvenlik uzmanı olarak, şirketin LDAP sunucusuna dış ağdan bağlantı denemeleri yapılıyor ve bu denemeler genel müdür, CFO ve CTO'nun kullanı...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 150566.4,
+    "avg_tokens": 1136.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 169,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'turgut.ak' çok faktörlü doğrulama ile sisteme girdi ama ardından kendi hesabında MFA'yı d...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryoyu değerlendireceğim:\n\n**Kullanıcı 'turgut.ak' çok faktörlü doğrulama ile sisteme girdi ama ardından kendi hesabında MFA'yı devre dışı bıraktı....",
+    "avg_score": 0.0,
+    "avg_latency_ms": 89679.5,
+    "avg_tokens": 816.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 170,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Tüm çalışan verileri şifreli depolanmalı. Yeni HR sistemi çalışan verilerini şifresiz bir ...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo değerlendirmesinde ilk adım, verilen politika ile gerçek durum arasındaki uyumu analiz etmektir.\n\nSenaryo:\nPolitika: Tüm çalışan verileri şifr...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 88464.2,
+    "avg_tokens": 820.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 171,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirketin müşteri destek ekibi her gün binlerce destek talebi kaydı açıp kapatıyor. Bu durum yıllardı...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme zamanı!\n\n**Erişim Yönetim Senaryosu**\n\n1. **Karar:** POLİTİKA İHLALİ (Normal politikaların uygulanamaması)\n2. **Risk Seviyesi:**...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 90095.6,
+    "avg_tokens": 831.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 172,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Çalışanın bilgisayarı aniden yavaşladı ve arka planda bilgisayardaki tüm dosyaları tarayıp dış bir s...",
+    "beklenen": "SPYWARE / DATA EXFILTRATION",
+    "tahmin_ozet": "Senaryo: Çalışanın bilgisayarı aniden yavaşladı ve arka planda bilgisayardaki tüm dosyaları tarayıp dış bir sunucuya gönderen bir süreç başladı.\n\n1. *...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 60792.0,
+    "avg_tokens": 853.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 173,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Şirketin kimlik ve erişim yönetimi (IAM) sistemini yöneten admin 'iam.admin' kendi hesabının yetkile...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Bu senaryoyu MITRE ATT&CK ve güvenlik bilgilerini referans alarak değerlendirme zamanı:\n\n**Senaryo:** Şirketin kimlik ve erişim yönetimi (IAM) sistemi...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 102302.0,
+    "avg_tokens": 884.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 174,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Yönetici 'director.yilmaz' normalde yönetim raporlarına erişiyor. Bu hafta saldırı simülasyonu (red ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme zamanı!\n\n**Senaryo:** Yönetici \"director.yilmaz\" normalde yönetim raporlarına erişiyor, ancak saldırı simülasyonu kapsamında ona...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 77832.7,
+    "avg_tokens": 907.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 175,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Veri ihlali durumunda 72 saat içinde KVKK'ya bildirim yapılmalı. Şirkette bir veri ihlali ...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo incelemesi yapacağım ve her adımda karar, risk seviyesi, gerekçe ve önerilen aksiyonu belirteceğim.\n\n**Senaryo 1:** Veri ihlali tespit edildi ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 160754.7,
+    "avg_tokens": 1194.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 176,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Şirkete ait bir alan adının süresi doldu ve bir saldırgan hemen bu alan adını kaydetti....",
+    "beklenen": "DOMAIN HİJACKING",
+    "tahmin_ozet": "Senaryo 1:\n\n**Erişim Yönetimi Senaryosu**\n\n* **Açıklama:** Saldırgan, şirketin alan adını kaydetti ve bu alan adı üzerinden muhtemelen klonlama veya s...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 168881.8,
+    "avg_tokens": 1208.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 177,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'yusuf.demir' şirketteki görev süresinin sonuna geldi (emeklilik). Son ay aktivitesi gider...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizlerine başlayacağım.\n\n**Senaryo 1:** Kullanıcı 'yusuf.demir' emeklilik statüsüne geçmek istiyor ancak hala şirket sisteminde aktif bir k...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 137644.8,
+    "avg_tokens": 1064.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 178,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Tüm çalışanlara verilen dizüstü bilgisayarlarda tam disk şifrelemesi (FDE) aktif olmalı. I...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Bu senaryoyu MITRE ATT&CK framework'ini ve Zero Trust - Sıfır Güven Mimarisi prensiplerini kullanarak değerlendireceğim:\n\n**Senaryo:** IT denetiminde ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 117195.5,
+    "avg_tokens": 917.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 179,
+    "kategori": "yetki_analizi",
+    "zorluk": "orta",
+    "girdi": "Finans direktörü 'cfo.uzman' tüm banka hesaplarını görüntüleyebiliyor ve 10.000 TL altındaki transfe...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Ben bir siber güvenlik uzmanı olarak, aşağıda verilmiş olan senaryoyu değerlendiriyorum.\n\n**Senaryo:**\n\nFinans direktörü 'cfo.uzman' tüm banka hesapla...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 71192.7,
+    "avg_tokens": 556.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 180,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Saldırgan şirketin müşteri veritabanını ele geçirdi ve 1 milyon müşterinin e-posta ile şifre hash'le...",
+    "beklenen": "VERİ İHLALİ / DATA BREACH",
+    "tahmin_ozet": "Siber güvenlik uzmanım ve bu senaryoyu MITRE ATT&CK ve güvenlik bilgilerine göre değerlendiriyorum.\n\n**Senaryo:** Saldırgan şirketin müşteri veritaban...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 126595.8,
+    "avg_tokens": 1012.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 181,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirketin web sitesi düzenli SEO taraması için izin verilen bir bot tarafından taranıyor....",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo:\n**Erişim Yönetimi - SEO Taraması Botu**\n\n1. Karar: ANOMALİ\n2. Risk Seviyesi: DÜŞÜK\n3. Gerekçe: Şirketin web sitesi düzenli SEO taraması için ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 83166.8,
+    "avg_tokens": 780.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 182,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'baris.yilmaz' sistemde 8 saatlik bir oturum açık bıraktı ve uzun süre etkileşim olmadı. E...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**1. Senaryo:** Kullanıcı 'baris.yilmaz' sistemde 8 saatlik bir oturum açık bıraktı ve uzun süre etkileşim olmadı.\n\n...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 151563.9,
+    "avg_tokens": 1064.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 183,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Politika: Penetrasyon testleri yılda en az bir kez yaptırılmalı. Şirket 2 yıldır pentest yaptırmadı....",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo değerlendirme yapacağım:\n\n**Senaryo:** Şirket, penetrasyon testleri (pentest) yapmaya uygun bir politika ve prosedürü var ancak son 2 yıldır b...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 97335.7,
+    "avg_tokens": 658.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 184,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirkete ait mobil uygulama güncellemesi kötü niyetli bir geliştirici tarafından zararlı kod içerecek...",
+    "beklenen": "SUPPLY CHAIN ATTACK / MALICIOUS UPDATE",
+    "tahmin_ozet": "Senaryo değerlendirilmesi:\n\n**Erişim Yönetimi Senaryosu:**\n\n**Tedarik Zinciri Saldırısı (Supply Chain Attack)**\n\n* **Göstergeler:** Dijital imzalı gün...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 194444.3,
+    "avg_tokens": 1122.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 185,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Şirket avukatı 'hukuk.uzman' yalnızca sözleşme yönetim sistemine ve hukuki belgelere erişebiliyor. M...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo 1:\n- **Kullanıcı:** Hukuk uzmanı\n- **Erişim:** Sözleşme yönetim sistemi ve hukuki belgeler\n- **Risk Seviyesi:** NORMAL\n- **Gerekçe:** Avukatın...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 290544.6,
+    "avg_tokens": 1559.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 186,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Şirketin kimlik doğrulama loglarında bir kullanıcının giriş başarıyla tamamlandı ama oturum tokeni n...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo: Şirketin kimlik doğrulama loglarında bir kullanıcının giriş başarıyla tamamlandı ama oturum tokeni normalden 10 kat daha uzun süre geçerli ol...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 103014.9,
+    "avg_tokens": 813.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 187,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Çalışanların tatil süresince hesapları devre dışı bırakılmaz ama güvenlik izleme artırılır...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Bir siber güvenlik uzmanı olarak, sizlere erişim yönetimi senaryolarını değerlendiriyorum.\n\n**Senaryo 1:**\nÇalışan 2 haftalık tatile çıktı, ancak hesa...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 85870.9,
+    "avg_tokens": 745.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 188,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin ağ altyapısında BGP hijacking gerçekleşti. Şirketin IP adres bloğu saldırgan tarafından duy...",
+    "beklenen": "BGP HİJACKING / AĞ SALDIRISI",
+    "tahmin_ozet": "**Senaryo 1:** BGP hijacking sonucu trafik farklı yönlendirildi ve şirketin ağ altyapısı etkilenmiş durumdaki IP adreslerinin saldırgan tarafından duy...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 215480.6,
+    "avg_tokens": 1361.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 189,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Yönetici 'genel.mudur' yurt dışı iş seyahatindeyken şirket sistemlerine bağlandı. Seyahat planı İK s...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Yönetici \"genel.mudur\" yurt dışı iş seyahatindeyken şirket sistemlerine bağlandı. Seyahat planı İK sisteminde kayıtlı.\n\n1. **Karar:** Anormal (ANOMALİ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 89073.1,
+    "avg_tokens": 778.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 190,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Şirkette SOD (Segregation of Duties) analizi yapıldı. Muhasebe uzmanı hem fatura oluşturabiliyor hem...",
+    "beklenen": "AŞIRI YETKİ",
+    "tahmin_ozet": "Senaryo için aşağıdaki değerlendirmeler yapılır:\n\n**SOD Analizi Sonucunda**\n\n1. **Karar**: POLİTİKA İHLALİ\n2. **Risk Seviyesi**: YÜKSEK\n3. **Gerekçe**...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 99872.2,
+    "avg_tokens": 835.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 191,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Kullanıcı 'ayla.demir' antivirüs yazılımının zararlı olarak işaretlediği bir e-posta ekini açmadan ö...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Benim için ilk durum:\n\n**Senaryo:** Kullanıcı 'ayla.demir' antivirüs yazılımının zararlı olarak işaretlediği bir e-posta ekini açmadan önce IT'ye bild...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 203328.6,
+    "avg_tokens": 1265.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 192,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Çalışanlar iş amaçlı kişisel e-posta hesapları kullanamaz. Çalışan bir müşteriye kişisel G...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Siber güvenlik uzmanım. Erişim yönetimi senaryosunu değerlendiriyorum. Aşağıda politika ihlali ve risk seviyesi gibi bilgiler yer alıyor.\n\n**Senaryo 1...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 161279.9,
+    "avg_tokens": 1074.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 193,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Şirketin tüm çalışanları aynı anda parolalarını değiştirdi. Bu durum sistemde toplu işlem olarak göz...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryoları değerlendireceğim:\n\n**Senaryo 1:** Çalışanlar parolalarını toplu olarak değiştirdi.\n\n1. **Karar:** NORMAL\n2. **Risk Seviyesi:** DÜŞÜK\n3. *...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 179515.8,
+    "avg_tokens": 1146.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 194,
+    "kategori": "yetki_analizi",
+    "zorluk": "kolay",
+    "girdi": "Şirkete ait bulut ortamında her servis kendi ayrı servis hesabıyla çalışıyor. Hesaplar birbirinden i...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları aşağıdaki gibidir:\n\n**Senaryo 1:** Bulut servis hesabından anormal miktarda veri indirimi gerçekleştirildi.\n\n* Karar: ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 174518.3,
+    "avg_tokens": 1184.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 195,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirkete ait bir web uygulamasında XSS açığı keşfedildi. Saldırgan açığı kullanarak kullanıcıların ot...",
+    "beklenen": "XSS / SESSION HİJACKİNG",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**1. XSS Açığı Keşfi**\n\n* Karar: ANOMALİ\n* Risk Seviyesi: ORTA\n* Gerekçe: Saldırganlar web uygulamasında keşfedilen ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 124010.0,
+    "avg_tokens": 937.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 196,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Güvenlik açıkları 30 gün içinde yamalanmalı. Kritik bir CVE yayınlandı ve sistem yöneticis...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryo 1:\nPolitika ihlali: Sistem yöneticisi kritik bir CVE yayınlandıktan sonra yamayı 15 gün beklemiştir, bu da güvenlik politikasını ihlal etmekte...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 200058.6,
+    "avg_tokens": 1262.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 197,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'kader.yilmaz' uzaktan çalışırken hem şirket VPN'ine hem de kişisel bir VPN servisine aynı...",
+    "beklenen": "ANOMALİ",
+    "tahmin_ozet": "Senaryo incelememize başlıyoruz:\n\n**Senaryo:** Kullanıcı \"kader.yilmaz\" uzaktan çalışırken hem şirket VPN'ine hem de kişisel bir VPN servisine aynı an...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 102370.6,
+    "avg_tokens": 834.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 198,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin kullandığı açık kaynak kütüphanelerinden birinin yeni sürümünde kötü niyetli kod tespit edi...",
+    "beklenen": "SUPPLY CHAIN ATTACK / DEPENDENCY CONFUSION",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**Senaryo:** Şirketin kullandığı açık kaynak kütüphanelerinden birinin yeni sürümünde kötü niyetli kod tespit edildi...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 111919.6,
+    "avg_tokens": 899.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 199,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirketin müşteri veritabanı her gece 00:00'da tam yedek alıyor. Bu işlem yıllardır kesintisiz devam ...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo için aşağıdaki değerlendirmeler yapılır:\n\n**İlk Senaryo**\n\n* T1136 - Create Account (Hesap Oluşturma) Taktiği ile ilgili bir olay yoktur.\n* Ka...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 159924.2,
+    "avg_tokens": 1119.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 200,
+    "kategori": "yetki_analizi",
+    "zorluk": "zor",
+    "girdi": "Şirketin Zero Trust mimarisine geçiş sürecinde tüm kullanıcılar her kaynak erişiminde yeniden doğrul...",
+    "beklenen": "UYGUN YETKİ",
+    "tahmin_ozet": "Siber güvenlik uzmanıyım ve sizleri erişim yönetimi senaryosunu değerlendirmek için yönlendiriyorum. Aşağıdaki sonuçlar, MITRE ATT&CK ve güvenlik bilg...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 167084.3,
+    "avg_tokens": 1117.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 201,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin iç destek ekibindeki bir çalışan, telefon üzerinden 'IT güvenlik ekibinden' olduğunu iddia ...",
+    "beklenen": "SOSYAL MÜHENDİSLİK / INSIDER THREAT",
+    "tahmin_ozet": "Senaryo analizleri:\n\n**Senaryo 1:** İç destek ekibindeki bir çalışan, telefon üzerinden \"IT güvenlik ekibinden\" iddia eden biri tarafından arandı ve a...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 153734.9,
+    "avg_tokens": 1126.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 202,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin kullandığı bir ağ izleme yazılımının resmi güncellemesi, yazılım sağlayıcısının build sunuc...",
+    "beklenen": "APT / SUPPLY CHAIN ATTACK",
+    "tahmin_ozet": "Senaryo değerlendirme:\n\n1. **Erişim Yönetimi Senaryosu**\nSaldırganlar, bir yazılım sağlayıcısının build sunucusuna sızarak resmi güncellemeyi modifiye...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 120869.1,
+    "avg_tokens": 974.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 203,
+    "kategori": "politika_uyum",
+    "zorluk": "zor",
+    "girdi": "Şirket politikası: Tüm çalışanlar MFA ile giriş yapmak zorunda. Bir çalışana gece boyunca onlarca MF...",
+    "beklenen": "POLİTİKA YETERSİZ / MFA FATIGUE SALDIRISI",
+    "tahmin_ozet": "Senaryo analizi:\n\n**Senaryo:** Bir çalışana gece boyunca onlarca MFA push bildirimi gönderildi ve sonunda çalışan bildirimleri durdurmak için 'Onayla'...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 88989.3,
+    "avg_tokens": 812.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 204,
+    "kategori": "anomali_tespiti",
+    "zorluk": "zor",
+    "girdi": "Sistem yöneticisi 'it.admin' görev kapsamı gereği birçok sisteme erişim yetkisine sahip. Son 3 ayda ...",
+    "beklenen": "INSIDER THREAT / PRIVILEGE ABUSE",
+    "tahmin_ozet": "Senaryo:\nSistem yöneticisi 'it.admin' görev kapsamı gereği birçok sisteme erişim yetkisine sahip. Son 3 ayda iş arkadaşlarından topladığı kimlik bilgi...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 96203.9,
+    "avg_tokens": 845.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 205,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "orta",
+    "girdi": "Şirketin eski bir VPN hesabının kimlik bilgileri dark web'de ele geçirilmişti. Bu hesap devre dışı b...",
+    "beklenen": "RANSOMWARE / CREDENTIAL COMPROMISE",
+    "tahmin_ozet": "Bu senaryoyu MITRE ATT&CK'in Erişim Yönetimi modülüne göre değerlendirerek, aşağıdaki sonuçlara varıyorum:\n\n**Senaryo 1:** Şirketin eski bir VPN hesab...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 144926.9,
+    "avg_tokens": 1067.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 77,
+    "kategori": "politika_uyum",
+    "zorluk": "kolay",
+    "girdi": "Politika: Şifreler en az 12 karakter, büyük harf, küçük harf, rakam ve özel karakter içermeli. Kulla...",
+    "beklenen": "POLİTİKAYA UYGUN",
+    "tahmin_ozet": "Senaryoları değerlendireceğim:\n\n**Senaryo 1:**\nPolitika: Şifreler en az 12 karakter, büyük harf, küçük harf, rakam ve özel karakter içermeli.\nKullanıc...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 203459.7,
+    "avg_tokens": 1114.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 78,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "zor",
+    "girdi": "Şirketin bir sunucusu gece yarısı aniden çok fazla işlemci kullanmaya başladı. Sunucu üzerinde kript...",
+    "beklenen": "CRYPTOJACKING",
+    "tahmin_ozet": "Senaryo analizine göre aşağıdaki sonuçlar elde edilmiştir:\n\n**Senaryo 1:** Şirketin bir sunucusu gece yarısı aniden çok fazla işlemci kullanmaya başla...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 140681.8,
+    "avg_tokens": 870.0,
+    "run_scores": [
+      0.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 79,
+    "kategori": "anomali_tespiti",
+    "zorluk": "orta",
+    "girdi": "Kullanıcı 'hande.ozturk' 2 yıldır aynı rolde çalışıyor. Bu sürede herhangi bir yetki değişikliği olm...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Siber güvenlik uzmanı olarak, senin görevin bu senaryoyu değerlendirip en uygun kararları vermen gerekir.\n\n**Senaryo 1:** Kullanıcı 'hande.ozturk' 2 y...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 214728.1,
+    "avg_tokens": 1127.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 93,
+    "kategori": "anomali_tespiti",
+    "zorluk": "kolay",
+    "girdi": "Şirket içi sohbet uygulamasında kullanıcı 'aydin.kara' ekip üyeleriyle proje dosyalarını paylaştı. T...",
+    "beklenen": "NORMAL",
+    "tahmin_ozet": "Senaryo analizleri:\n\n**Senaryo 1: Şirket içi sohbet uygulamasında paylaşımlar**\n\n* **Karar:** ANOMALİ\n* **Risk Seviyesi:** DÜŞÜK\n* **Gerekçe:** Kullan...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 256174.5,
+    "avg_tokens": 1258.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 94,
+    "kategori": "politika_uyum",
+    "zorluk": "orta",
+    "girdi": "Politika: Müşteri şikayetleri 24 saat içinde yanıtlanmalı. Müşteri hizmetleri sistemi 48 saatlik bir...",
+    "beklenen": "POLİTİKA İHLALİ",
+    "tahmin_ozet": "Senaryo analizi için aşağıdaki değerlendirme sonuçları elde edilebilir:\n\n**Senaryo 1: SIEM sisteminin anormal davranışları**\n\n* **Karar:** ANOMALİ\n* *...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 212057.8,
+    "avg_tokens": 1025.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 108,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "E-posta filtresine takılan bir mesajda 'acil kargo takibi' bahanesiyle zararlı link bulundu. 50 çalı...",
+    "beklenen": "PHISHING",
+    "tahmin_ozet": "Senaryo değerlendirme sonuçları:\n\n**E-posta Filtresine Takılan Bir Mesajda 'Acil Kargo Takibi' Bahanesiyle Zararlı Link Bulundu**\n\n1. Karar: **ANOMALİ...",
+    "avg_score": 1.0,
+    "avg_latency_ms": 174702.2,
+    "avg_tokens": 947.0,
+    "run_scores": [
+      1.0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 123,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Şirketin e-posta sunucusu başka ağlara spam gönderiyor. Sunucu kara listeye alınmış....",
+    "beklenen": "KOMPROMİZE SUNUCU / BOTNET",
+    "tahmin_ozet": "...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 0.0,
+    "avg_tokens": 0.0,
+    "run_scores": [
+      0
+    ]
+  },
+  {
+    "model": "Llama3.1+RAG",
+    "id": 123,
+    "kategori": "tehdit_siniflandirma",
+    "zorluk": "kolay",
+    "girdi": "Şirketin e-posta sunucusu başka ağlara spam gönderiyor. Sunucu kara listeye alınmış....",
+    "beklenen": "KOMPROMİZE SUNUCU / BOTNET",
+    "tahmin_ozet": "Senaryoları değerlendirirken, MITRE ATT&CK'den alınan bilgiler ile senaryoları analiz edeceğim.\n\n**Senaryo 1:** Şirketin e-posta sunucusu başka ağlara...",
+    "avg_score": 0.0,
+    "avg_latency_ms": 184996.7,
+    "avg_tokens": 1097.0,
+    "run_scores": [
+      0.0
+    ]
+  }
+]

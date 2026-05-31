@@ -1,0 +1,232 @@
+model,id,kategori,zorluk,girdi,beklenen,tahmin_ozet,avg_score,avg_latency_ms,avg_tokens,run_scores
+GPT-4o,1,anomali_tespiti,kolay,Kullanıcı 'ahmet.yilmaz' mesai saatleri içinde (09:00-18:00) şirket VPN'ine bağlandı ve CRM sistemin...,NORMAL,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: Kullanıcı mesai saatleri içinde ve daha önce de gözlemlenmiş bir pattern ile şirket VPN'ine bağla...",1.0,2217.8,312.0,"[1.0, 1.0, 1.0]"
+GPT-4o,2,anomali_tespiti,kolay,Kullanıcı 'mehmet.kaya' gece 03:15'te sistemlere erişmeye çalıştı. Kullanıcının geçmiş erişim loglar...,ANOMALİ,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Kullanıcının alışılmadık bir saatte ve daha önce kullanılmamış bir lokasyondan erişim denemesi,...",1.0,3232.7,346.3,"[1.0, 1.0, 1.0]"
+GPT-4o,3,anomali_tespiti,kolay,Servis hesabı 'svc-backup' her gece 02:00'de otomatik yedekleme işlemi gerçekleştiriyor. Bu işlem 6 ...,NORMAL,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: 'svc-backup' hesabı, belirli bir zaman diliminde düzenli olarak yedekleme işlemi gerçekleştiriyor...",1.0,1792.4,312.7,"[1.0, 1.0, 1.0]"
+GPT-4o,4,anomali_tespiti,kolay,Kullanıcı 'ali.demir' 5 dakika içinde 500 kez başarısız giriş denemesi yaptı. Her denemede farklı şi...,ANOMALİ,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Kısa süre içinde çok sayıda başarısız giriş denemesi, genellikle brute force saldırılarına işar...",1.0,2273.4,303.7,"[1.0, 1.0, 1.0]"
+GPT-4o,5,anomali_tespiti,kolay,IT yöneticisi 'admin.user' mesai saatlerinde Active Directory'de yeni kullanıcı hesabı oluşturdu. Bu...,NORMAL,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: IT yöneticisinin mesai saatlerinde Active Directory'de yeni kullanıcı hesabı oluşturması, haftalı...",1.0,1369.8,283.7,"[1.0, 1.0, 1.0]"
+GPT-4o,6,anomali_tespiti,orta,Kullanıcı 'fatma.ozturk' normalde sadece muhasebe sistemine erişiyor. Bugün ilk kez üretim veritaban...,ANOMALİ,"1. Karar: ANOMALİ
+2. Risk Seviyesi: ORTA
+3. Gerekçe: Kullanıcı 'fatma.ozturk' normalde muhasebe sistemine erişiyor ve ilk kez üretim veritabanına eriş...",1.0,1801.9,369.7,"[1.0, 1.0, 1.0]"
+GPT-4o,7,anomali_tespiti,orta,Kullanıcı 'can.arslan' İstanbul'dan saat 10:00'da sisteme giriş yaptı. Aynı kullanıcı 2 saat sonra L...,ANOMALİ,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Kullanıcının iki saat içinde İstanbul'dan Londra'ya fiziksel olarak seyahat etmesi mümkün değil...",1.0,1477.7,331.3,"[1.0, 1.0, 1.0]"
+GPT-4o,16,yetki_analizi,kolay,Stajyer 'selin.ak' tüm üretim sunucularına root erişimine sahip. Görevi sadece test ortamında fronte...,AŞIRI YETKİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Stajyerin görevi test ortamında frontend geliştirme yapmakken, üretim sunucularına root...",0.0,2035.7,317.7,"[0.0, 0.0, 0.0]"
+GPT-4o,17,yetki_analizi,kolay,Muhasebe uzmanı 'ayse.kara' yalnızca muhasebe modülüne okuma/yazma erişimine sahip. Diğer sistemlere...,UYGUN YETKİ,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: 'ayse.kara' yalnızca iş tanımına uygun olan muhasebe modülüne erişime sahip ve bu erişim okuma/ya...",1.0,1774.0,301.0,"[1.0, 1.0, 1.0]"
+GPT-4o,18,yetki_analizi,kolay,2 yıl önce başka departmana geçen kullanıcı 'kemal.yilmaz' eski departmanının sistemlerine hala tam ...,AŞIRI YETKİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Kullanıcının eski departmanındaki sistemlere hala erişimi olması, gereksiz ve potansiye...",0.0,2111.5,333.7,"[0.0, 0.0, 0.0]"
+GPT-4o,19,yetki_analizi,orta,DevOps mühendisi 'ozan.cetin' üretim ortamına deploy yetkisine sahip ancak veritabanına doğrudan eri...,UYGUN YETKİ,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: DevOps mühendisi, üretim ortamına deploy yetkisine sahip olması normaldir ve doğrudan veritabanı ...",0.0,1698.6,322.3,"[0.0, 0.0, 0.0]"
+GPT-4o,20,yetki_analizi,orta,"Satış temsilcisi 'deniz.ak' tüm müşteri verilerini görebiliyor, düzenleyebiliyor ve silebiliyor. Gör...",AŞIRI YETKİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Satış temsilcisinin görev tanımı, müşteri verilerini düzenleme veya silme yetkisini ger...",0.0,2075.5,328.0,"[0.0, 0.0, 0.0]"
+GPT-4o,21,yetki_analizi,orta,Güvenlik denetçisi 'cem.ozkan' tüm sistemlerin loglarına salt okunur erişime sahip. Hiçbir sistemi d...,UYGUN YETKİ,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: 'cem.ozkan' sadece salt okunur erişime sahip olduğundan, sistemlerde değişiklik yapma yetkisi yok...",0.0,1693.3,297.0,"[0.0, 0.0, 0.0]"
+GPT-4o,22,yetki_analizi,zor,Proje müdürü 'bora.arslan' projeyle ilgili tüm sistemlere geçici erişim aldı. Proje 6 ay önce tamaml...,AŞIRI YETKİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: ORTA
+3. Gerekçe: Proje tamamlandıktan sonra erişim yetkilerinin gözden geçirilmemesi, gereksiz erişimlerin...",0.0,1906.6,326.7,"[0.0, 0.0, 0.0]"
+GPT-4o,24,politika_uyum,kolay,Şirket politikası: Tüm ayrıcalıklı hesaplar (admin) MFA kullanmak zorunda. Kullanıcı 'admin.celik' M...,POLİTİKA İHLALİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Ayrıcalıklı hesapların MFA kullanması zorunludur ve bu ihlal, hesapların yetkisiz erişi...",1.0,2016.3,321.7,"[1.0, 1.0, 1.0]"
+GPT-4o,25,politika_uyum,kolay,Şirket politikası: Şifreler 90 günde bir değiştirilmeli. Kullanıcı 'tuba.sahin' şifresini 85 günde d...,POLİTİKAYA UYGUN,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: Kullanıcı, şirket politikasına uygun olarak şifresini 90 gün içinde değiştirmiştir.
+4. Önerilen A...",1.0,1183.4,279.0,"[1.0, 1.0, 1.0]"
+GPT-4o,26,politika_uyum,kolay,Şirket politikası: Gizli veriler şifreli kanallar üzerinden iletilmeli. Kullanıcı müşteri verilerini...,POLİTİKA İHLALİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Gizli müşteri verilerinin şifresiz bir kanal üzerinden iletilmesi, verilerin üçüncü şah...",1.0,2037.5,314.3,"[1.0, 1.0, 1.0]"
+GPT-4o,27,politika_uyum,orta,Politika: Üçüncü taraf tedarikçiler yalnızca iş saatleri içinde (08:00-18:00) ve onaylı IP aralığınd...,POLİTİKAYA UYGUN,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: Tedarikçi 'vendor_xyz', iş saatleri içinde ve onaylı IP aralığından erişim sağladığı için politik...",0.0,1397.1,306.7,"[0.0, 0.0, 0.0]"
+GPT-4o,28,politika_uyum,orta,Politika: Hassas veriye erişimde 4 göz prensibi uygulanmalı (iki kişi onayı gerekli). Kullanıcı tek ...,POLİTİKA İHLALİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Hassas veriye erişim için gerekli olan 4 göz prensibi ihlal edilerek, kullanıcı tek baş...",1.0,1790.2,344.7,"[1.0, 1.0, 1.0]"
+GPT-4o,29,politika_uyum,orta,Politika: GDPR kapsamında AB vatandaşlarının verileri AB sınırları dışına çıkarılamaz. Sistem AB dış...,POLİTİKA İHLALİ,"1. Karar: POLİTİKA İHLALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: GDPR, AB vatandaşlarının verilerinin AB sınırları dışına çıkarılmasını yasaklar ve bu d...",1.0,1936.2,315.7,"[1.0, 1.0, 1.0]"
+GPT-4o,30,politika_uyum,zor,Politika: Geliştiriciler production veritabanına doğrudan erişemez. Kıdemli geliştirici 'serdar.yilm...,POLİTİKAYA UYGUN,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: Kıdemli geliştirici, acil bir durum için gerekli onayla geçici erişim almış ve iş tamamlandıktan ...",0.667,2491.3,325.7,"[1.0, 1.0, 0.0]"
+GPT-4o,32,tehdit_siniflandirma,kolay,Kullanıcı 10 farklı hesap için şifre sıfırlama talebi gönderdi. Tüm talepler farklı IP adreslerinden...,CREDENTIAL STUFFING,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Farklı IP adreslerinden gelen çok sayıda şifre sıfırlama talebi, potansiyel bir hesap ele geçir...",0.0,1689.3,316.3,"[0.0, 0.0, 0.0]"
+GPT-4o,33,tehdit_siniflandirma,kolay,Kullanıcı sistemde oturum açtıktan sonra 1 saat içinde 50GB veri indirdi ve VPN bağlantısını kapattı...,INSIDER THREAT,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Kullanıcının kısa sürede büyük miktarda veri indirmesi ve VPN bağlantısını kapatması, özellikle...",0.0,1600.9,312.3,"[0.0, 0.0, 0.0]"
+GPT-4o,34,tehdit_siniflandirma,kolay,Bir kullanıcı hesabı birden fazla ülkeden eş zamanlı oturum açmaya çalışıyor. Oturumlar arasında yal...,HESAP ELE GEÇİRME,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Kullanıcının fiziksel olarak bu kadar kısa sürede farklı ülkelerde bulunması mümkün değildir, b...",0.0,1782.0,305.0,"[0.0, 0.0, 0.0]"
+GPT-4o,35,tehdit_siniflandirma,orta,"Sistem yöneticisi hesabı gece 02:00'de yeni bir admin hesabı oluşturdu, tüm sistemlere tam yetki ver...",INSIDER THREAT / APT,"1. Karar: ANOMALİ
+2. Risk Seviyesi: KRİTİK
+3. Gerekçe: Gece saatlerinde yapılan bu tür işlemler olağandışı ve şüphelidir. Logların silinmesi, kötü niy...",0.0,1596.1,319.3,"[0.0, 0.0, 0.0]"
+GPT-4o,36,tehdit_siniflandirma,orta,Şirketin API servisi saniyede 10.000 istek alıyor. Normal trafik saniyede 100-200 istek. Tüm istekle...,DDoS / BOT SALDIRISI,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Normal trafiğin çok üzerinde bir istek sayısı var ve isteklerin farklı IP'lerden gelmesi, dağıt...",1.0,1677.2,328.0,"[1.0, 1.0, 1.0]"
+GPT-4o,37,tehdit_siniflandirma,orta,"Normal yetkisi olmayan bir uygulama, bir güvenlik açığı kullanarak veritabanına erişim sağladı ve ve...",PRIVILEGE ESCALATION,"1. Karar: ANOMALİ
+2. Risk Seviyesi: KRİTİK
+3. Gerekçe: Yetkisiz bir uygulamanın güvenlik açığı kullanarak veritabanına erişmesi, veri sızıntısı ve sis...",0.0,12453.2,327.3,"[0.0, 0.0, 0.0]"
+GPT-4o,38,tehdit_siniflandirma,zor,Kullanıcı 'pinar.yildiz' 3 aydır her hafta düzenli olarak küçük miktarlarda (50-100 kayıt) müşteri v...,INSIDER THREAT,"1. Karar: ANOMALİ
+2. Risk Seviyesi: ORTA
+3. Gerekçe: Kullanıcının düzenli olarak müşteri verisi indirmesi, özellikle toplamda büyük bir miktara ulaştı...",0.0,1963.5,340.0,"[0.0, 0.0, 0.0]"
+GPT-4o,8,anomali_tespiti,orta,Kullanıcı 'zeynep.celik' uzaktan çalışma politikası kapsamında evinden VPN ile bağlanıyor. Bu ay 15 ...,NORMAL,"1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: Kullanıcının evden VPN ile bağlanması ve IP adresinin sabit olması, statik IP kullanımı nedeniyle...",1.0,1646.7,302.0,"[1.0, 1.0, 1.0]"
+GPT-4o,9,anomali_tespiti,orta,Ayrılan çalışan 'emre.yildiz'in hesabı devre dışı bırakıldı. Ancak loglar bu hesabın ayrılma tarihin...,ANOMALİ,"1. Karar: ANOMALİ
+2. Risk Seviyesi: YÜKSEK
+3. Gerekçe: Ayrılan bir çalışanın hesabının devre dışı bırakılmasına rağmen hala sisteme erişim sağlaması, ...",1.0,2174.9,338.0,"[1.0, 1.0, 1.0]"
+Llama3.1,1,anomali_tespiti,kolay,Kullanıcı 'ahmet.yilmaz' mesai saatleri içinde (09:00-18:00) şirket VPN'ine bağlandı ve CRM sistemin...,NORMAL,"**Eğer senaryoya göre normal bir kullanım şekli ise**
+
+1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: Kullanıcı, izin verilen saat diliminde şir...",1.0,46148.3,327.7,"[1.0, 1.0, 1.0]"
+Llama3.1,2,anomali_tespiti,kolay,Kullanıcı 'mehmet.kaya' gece 03:15'te sistemlere erişmeye çalıştı. Kullanıcının geçmiş erişim loglar...,ANOMALİ,"**Senaryo Analizi**
+
+1. **Karar:** ANOMALİ
+2. **Risk Seviyesi:** YÜKSEK
+3. **Gerekçe:** Kullanıcı'nın normal çalışma saatleri dışında ve bilinmeyen bi...",1.0,45995.6,355.7,"[1.0, 1.0, 1.0]"
+Llama3.1,3,anomali_tespiti,kolay,Servis hesabı 'svc-backup' her gece 02:00'de otomatik yedekleme işlemi gerçekleştiriyor. Bu işlem 6 ...,NORMAL,"**Evaluasyon:** 
+
+1. **Karar**: NORMAL
+2. **Risk Seviyesi**: DÜŞÜK
+3. **Gerekçe**: Zaten planlandığı şekilde otomatik yedekleme işlemi düzenli olarak ...",0.667,43241.3,327.3,"[0.0, 1.0, 1.0]"
+Llama3.1,4,anomali_tespiti,kolay,Kullanıcı 'ali.demir' 5 dakika içinde 500 kez başarısız giriş denemesi yaptı. Her denemede farklı şi...,ANOMALİ,"**Senaryo Analizi**
+
+1. **Karar:** ANOMALİ
+2. **Risk Seviyesi:** KRİTİK
+3. **Gerekçe:** Kullanıcı, kısa bir süre içinde çok sayıda başarısız giriş den...",0.667,35365.8,317.0,"[0.0, 1.0, 1.0]"
+Llama3.1,5,anomali_tespiti,kolay,IT yöneticisi 'admin.user' mesai saatlerinde Active Directory'de yeni kullanıcı hesabı oluşturdu. Bu...,NORMAL,"**Eğer IT yöneticisinin iş akışına uyduğu kanıtlanırsa:**
+
+1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: İşlem, düzenli bir rutin görevi teşkil...",1.0,83335.1,507.3,"[1.0, 1.0, 1.0]"
+Llama3.1,6,anomali_tespiti,orta,Kullanıcı 'fatma.ozturk' normalde sadece muhasebe sistemine erişiyor. Bugün ilk kez üretim veritaban...,ANOMALİ,"**Karar:** ANOMALİ
+**Risk Seviyesi:** YÜKSEK
+**Gerekçe:** Kullanıcı'nın üretim veritabanına (production DB) ilk olarak erişmesi, normalde yalnızca muh...",0.667,49304.2,388.7,"[1.0, 0.0, 1.0]"
+Llama3.1,7,anomali_tespiti,orta,Kullanıcı 'can.arslan' İstanbul'dan saat 10:00'da sisteme giriş yaptı. Aynı kullanıcı 2 saat sonra L...,ANOMALİ,"**Eğer Senaryoyu Tanıyorsanız:**
+1. **POLİTİKA İHLALİ**: 
+2. Risk Seviyesi: ORTA
+3. Gerekçe: Kullanıcı'nın iki farklı yerden sisteme giriş yapması nor...",0.667,39320.0,339.7,"[1.0, 1.0, 0.0]"
+Llama3.1,16,yetki_analizi,kolay,Stajyer 'selin.ak' tüm üretim sunucularına root erişimine sahip. Görevi sadece test ortamında fronte...,AŞIRI YETKİ,"**Evaluasyon:**
+
+1. **KARAR**: POLİTİKA İHLALİ
+2. **Risk Seviyesi**: YÜKSEK
+3. **Gerekçe**: Stajyerin tüm üretim sunucularına root erişimine sahip olm...",0.0,41359.7,333.0,"[0.0, 0.0, 0.0]"
+Llama3.1,17,yetki_analizi,kolay,Muhasebe uzmanı 'ayse.kara' yalnızca muhasebe modülüne okuma/yazma erişimine sahip. Diğer sistemlere...,UYGUN YETKİ,"**Erişim Yönetimi Analizi**
+
+1. **Karar:** ANOMALİ
+2. **Risk Seviyesi:** ORTA
+3. **Gerekçe:** Muhasebe uzmanı için daha geniş çapta erişim izni verilm...",0.333,35408.5,330.3,"[1.0, 0.0, 0.0]"
+Llama3.1,18,yetki_analizi,kolay,2 yıl önce başka departmana geçen kullanıcı 'kemal.yilmaz' eski departmanının sistemlerine hala tam ...,AŞIRI YETKİ,"**Senaryo Analizi:**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** YÜKSEK
+3. **Gerekçe:** Kullanıcı'nın eski departmana ait sistemlere hala tam...",0.0,40053.0,341.3,"[0.0, 0.0, 0.0]"
+Llama3.1,19,yetki_analizi,orta,DevOps mühendisi 'ozan.cetin' üretim ortamına deploy yetkisine sahip ancak veritabanına doğrudan eri...,UYGUN YETKİ,"**Evaluasyon:**
+
+1. **Karar:** NORMAL
+2. **Risk Seviyesi:** DÜŞÜK
+3. **Gerekçe:** Normal bir senaryodur, çünkü DevOps mühendisi production ortamına de...",0.0,41742.1,349.3,"[0.0, 0.0, 0.0]"
+Llama3.1,20,yetki_analizi,orta,"Satış temsilcisi 'deniz.ak' tüm müşteri verilerini görebiliyor, düzenleyebiliyor ve silebiliyor. Gör...",AŞIRI YETKİ,"**Senaryo Analizi:**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** KRİTİK
+3. **Gerekçe:** Satış temsilcisine müşteri verileri erişim ve değişik...",0.0,39468.6,339.3,"[0.0, 0.0, 0.0]"
+Llama3.1,21,yetki_analizi,orta,Güvenlik denetçisi 'cem.ozkan' tüm sistemlerin loglarına salt okunur erişime sahip. Hiçbir sistemi d...,UYGUN YETKİ,"Lütfen senaryolarınızı bana gönderin, değerlendirmemi yapacak olan sizsinizdir....",0.0,28159.5,289.3,"[0.0, 0.0, 0.0]"
+Llama3.1,22,yetki_analizi,zor,Proje müdürü 'bora.arslan' projeyle ilgili tüm sistemlere geçici erişim aldı. Proje 6 ay önce tamaml...,AŞIRI YETKİ,"**Evaluasyon:**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** KRİTİK
+3. **Gerekçe:** Erişim politikası ve yönetmeliklerine göre, projenin tamam...",0.0,37996.1,335.0,"[0.0, 0.0, 0.0]"
+Llama3.1,24,politika_uyum,kolay,Şirket politikası: Tüm ayrıcalıklı hesaplar (admin) MFA kullanmak zorunda. Kullanıcı 'admin.celik' M...,POLİTİKA İHLALİ,"**Erişim Yönetimi Senaryosu Değerlendirmesi**
+
+1. **Karar**: POLİTİKA İHLALİ
+2. **Risk Seviyesi**: KRİTİK
+3. **Gerekçe**: Kullanıcı, şirket politikası...",1.0,38965.3,337.0,"[1.0, 1.0, 1.0]"
+Llama3.1,25,politika_uyum,kolay,Şirket politikası: Şifreler 90 günde bir değiştirilmeli. Kullanıcı 'tuba.sahin' şifresini 85 günde d...,POLİTİKAYA UYGUN,"**Senaryo Analizi**
+
+1. **Karar**: POLİTİKA İHLALİ
+2. **Risk Seviyesi**: ORTA
+3. **Gerekçe**: Kullanıcı şirket politikasına uygun olmayan bir zaman ar...",0.667,37013.4,341.3,"[1.0, 0.0, 1.0]"
+Llama3.1,26,politika_uyum,kolay,Şirket politikası: Gizli veriler şifreli kanallar üzerinden iletilmeli. Kullanıcı müşteri verilerini...,POLİTİKA İHLALİ,"**Eğer senaryoya yanıt verebilirsen lütfen bana yardımcı olursun.**
+
+**Senaryo Analizi:**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** YÜKSEK
+...",1.0,37409.7,338.7,"[1.0, 1.0, 1.0]"
+Llama3.1,27,politika_uyum,orta,Politika: Üçüncü taraf tedarikçiler yalnızca iş saatleri içinde (08:00-18:00) ve onaylı IP aralığınd...,POLİTİKAYA UYGUN,"Senaryo Analizi:
+
+1. **Karar**: POLİTİKA İHLALİ
+2. **Risk Seviyesi**: ORTA
+3. **Gerekçe**: Tedarikçi 'vendor_xyz' iş saatleri dışında, onaylı IP aralı...",0.333,33637.5,340.7,"[1.0, 0.0, 0.0]"
+Llama3.1,28,politika_uyum,orta,Politika: Hassas veriye erişimde 4 göz prensibi uygulanmalı (iki kişi onayı gerekli). Kullanıcı tek ...,POLİTİKA İHLALİ,"**Evaluasyon:**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** KRİTİK
+3. **Gerekçe:** Politika kapsamında, iki kişiler onayı olmadan müşteri öde...",1.0,43274.7,367.3,"[1.0, 1.0, 1.0]"
+Llama3.1,29,politika_uyum,orta,Politika: GDPR kapsamında AB vatandaşlarının verileri AB sınırları dışına çıkarılamaz. Sistem AB dış...,POLİTİKA İHLALİ,"**Eğer seni soracaklarsa cevaplarını da vereceğim.**
+
+1. Karar: **POLİTİKA İHLALİ**
+2. Risk Seviyesi: **KRİTİK**
+3. Gerekçe: GDPR politikalarına aykır...",0.667,32380.7,319.3,"[0.0, 1.0, 1.0]"
+Llama3.1,30,politika_uyum,zor,Politika: Geliştiriciler production veritabanına doğrudan erişemez. Kıdemli geliştirici 'serdar.yilm...,POLİTİKAYA UYGUN,"**Senaryo Analizi**
+
+1. **Karar**: ANOMALİ
+2. **Risk Seviyesi**: YÜKSEK
+3. **Gerekçe**: Production veritabanına direkt erişim politikasına aykırı olar...",0.0,35565.6,354.0,"[0.0, 0.0, 0.0]"
+Llama3.1,32,tehdit_siniflandirma,kolay,Kullanıcı 10 farklı hesap için şifre sıfırlama talebi gönderdi. Tüm talepler farklı IP adreslerinden...,CREDENTIAL STUFFING,"**Erişim Yönetimi Senaryosu:**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** KRİTİK
+3. **Gerekçe:** Farklı IP adreslerinden gelen aynı kullanıc...",0.0,41989.1,360.7,"[0.0, 0.0, 0.0]"
+Llama3.1,33,tehdit_siniflandirma,kolay,Kullanıcı sistemde oturum açtıktan sonra 1 saat içinde 50GB veri indirdi ve VPN bağlantısını kapattı...,INSIDER THREAT,"**Evaluasyon:**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** YÜKSEK
+3. **Gerekçe:** Kullanıcının 1 saat içinde aşırı miktarda veri indirmesi s...",0.0,41206.1,358.0,"[0.0, 0.0, 0.0]"
+Llama3.1,34,tehdit_siniflandirma,kolay,Bir kullanıcı hesabı birden fazla ülkeden eş zamanlı oturum açmaya çalışıyor. Oturumlar arasında yal...,HESAP ELE GEÇİRME,"**Eş zamanlı Oturum Açma Senaryosu Analizi**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** ORTA
+3. **Gerekçe:** Kullanıcı hesabı birden fazla ü...",0.0,36153.4,325.7,"[0.0, 0.0, 0.0]"
+Llama3.1,35,tehdit_siniflandirma,orta,"Sistem yöneticisi hesabı gece 02:00'de yeni bir admin hesabı oluşturdu, tüm sistemlere tam yetki ver...",INSIDER THREAT / APT,"**Eğer senaryonun bu şekilde olması normal veya beklenen bir durum ise**
+1. Karar: NORMAL
+2. Risk Seviyesi: DÜŞÜK
+3. Gerekçe: Sistem yöneticisinin gec...",0.0,55556.6,417.0,"[0.0, 0.0, 0.0]"
+Llama3.1,36,tehdit_siniflandirma,orta,Şirketin API servisi saniyede 10.000 istek alıyor. Normal trafik saniyede 100-200 istek. Tüm istekle...,DDoS / BOT SALDIRISI,"**Erişim Yönetimi Senaryosu Analizi**
+
+**Senaryo:** Şirketin API servisi saniyede 10.000 istek alıyor. Normal trafik saniyede 100-200 istek. Tüm istek...",0.0,40061.6,352.0,"[0.0, 0.0, 0.0]"
+Llama3.1,37,tehdit_siniflandirma,orta,"Normal yetkisi olmayan bir uygulama, bir güvenlik açığı kullanarak veritabanına erişim sağladı ve ve...",PRIVILEGE ESCALATION,"**Senaryo Analizi**
+
+1. **Karar**: POLİTİKA İHLALİ
+2. **Risk Seviyesi**: KRİTİK
+3. **Gerekçe**: Uygulama yetki politikalarına uygun olmayan bir şekild...",0.0,36450.1,326.0,"[0.0, 0.0, 0.0]"
+Llama3.1,38,tehdit_siniflandirma,zor,Kullanıcı 'pinar.yildiz' 3 aydır her hafta düzenli olarak küçük miktarlarda (50-100 kayıt) müşteri v...,INSIDER THREAT,"**Senaryo Analizi**
+
+1. **Karar:** ANOMALİ
+2. **Risk Seviyesi:** KRİTİK
+3. **Gerekçe:** Kullanıcı 'pinar.yildiz' her hafta düzenli bir biçimde, toplam...",0.0,36278.6,343.3,"[0.0, 0.0, 0.0]"
+Llama3.1,8,anomali_tespiti,orta,Kullanıcı 'zeynep.celik' uzaktan çalışma politikası kapsamında evinden VPN ile bağlanıyor. Bu ay 15 ...,NORMAL,"**Karar:** ANOMALİ
+**Risk Seviyesi:** YÜKSEK
+**Gerekçe:** Kullanıcı, normal olarak uzaktan çalışma politikası kapsamında VPN kullanırken, ayın 15 günü...",0.667,35401.8,341.0,"[0.0, 1.0, 1.0]"
+Llama3.1,9,anomali_tespiti,orta,Ayrılan çalışan 'emre.yildiz'in hesabı devre dışı bırakıldı. Ancak loglar bu hesabın ayrılma tarihin...,ANOMALİ,"**Evaluasyon**
+
+1. **Karar:** POLİTİKA İHLALİ
+2. **Risk Seviyesi:** YÜKSEK
+3. **Gerekçe:** Ayrılan çalışanın hesabı devre dışı bırakıldığı hâlde, logl...",0.333,37237.7,346.3,"[0.0, 1.0, 0.0]"
